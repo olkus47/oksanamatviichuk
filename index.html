@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oksana Gesichtsmassage · Degersheim, Schweiz</title>
+  <meta name="description" content="Individuelle Gesichtsmassage in Degersheim, Schweiz. Natürliche Schönheit, tiefe Entspannung und achtsame Berührung durch Oksana Matviichuk. Buchen Sie Ihren Termin online.">
+  
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23B76543'><path d='M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z'/></svg>">
+
+  <!-- Google Fonts: Playfair Display + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement / Address Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        <span data-i18n="topbar.location">Sennrütistrasse 17, 9113 Degersheim, Schweiz</span>
+      </div>
+      <div class="top-bar-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        <span data-i18n="topbar.hours">Mi, Do, Fr nach Terminvereinbarung</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      
+      <!-- Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Oksana Gesichtsmassage Home">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a9 9 0 0 0-9 9c0 4.17 2.84 7.67 6.69 8.69L12 22l2.31-2.31C18.16 18.67 21 15.17 21 11a9 9 0 0 0-9-9z"></path>
+            <path d="M9 10a3 3 0 0 1 6 0"></path>
+            <path d="M12 14v1"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Oksana</span>
+          <span class="brand-sub">GESICHTSMASSAGE</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav aria-label="Hauptnavigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#about" class="nav-link" data-i18n="nav.about">Über mich</a></li>
+          <li><a href="#treatments" class="nav-link" data-i18n="nav.treatments">Behandlungen</a></li>
+          <li><a href="#pricing" class="nav-link" data-i18n="nav.pricing">Preise</a></li>
+          <li><a href="#offers" class="nav-link" data-i18n="nav.offers">Aktuell</a></li>
+          <li><a href="#location" class="nav-link" data-i18n="nav.location">Standort</a></li>
+          <li><a href="#booking" class="nav-link" data-i18n="nav.booking">Termin buchen</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Header Actions: Lang Switcher + Book Button -->
+      <div class="header-actions">
+        <!-- Language Switcher: DE / RU / UA -->
+        <div class="lang-switcher" aria-label="Sprachauswahl">
+          <button type="button" class="lang-btn active" data-lang="de">DE</button>
+          <button type="button" class="lang-btn" data-lang="ru">RU</button>
+          <button type="button" class="lang-btn" data-lang="ua">UA</button>
+        </div>
+
+        <a href="#booking" class="btn btn-primary btn-sm" data-i18n="nav.book_cta">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          Termin buchen
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button type="button" class="mobile-toggle" id="mobileToggle" aria-label="Menü öffnen" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        
+        <div class="hero-content">
+          <div class="hero-badge">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            <span data-i18n="hero.badge">SCHWEIZ · ACHTSAME GESICHTSMASSAGE</span>
+          </div>
+
+          <h1 class="hero-title" data-i18n="hero.title">
+            Individuelle Gesichtsmassage für Ihre natürliche Schönheit
+          </h1>
+
+          <p class="hero-subtitle" data-i18n="hero.subtitle">
+            Sanfte Techniken. Tiefe Wirkung. Für Haut, Muskulatur und nachhaltiges Wohlbefinden.
+          </p>
+
+          <p class="hero-desc" data-i18n="hero.description">
+            Gönnen Sie sich eine wohltuende Auszeit in ruhiger Atmosphäre. Eine sanfte, ganzheitliche Behandlung, die Ihre Gesichtsmuskulatur entspannt und Ihre natürliche Ausstrahlung zum Strahlen bringt.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#booking" class="btn btn-primary btn-lg" data-i18n="hero.cta_book">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              Termin buchen
+            </a>
+            <a href="#about" class="btn btn-secondary btn-lg" data-i18n="hero.cta_learn">
+              Mehr über mich
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span data-i18n="hero.quick_price">60 Min. · 80 CHF</span>
+            </div>
+            <div class="meta-tag" data-i18n="hero.intro_tag">
+              Kennenlernangebot 70 CHF
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Media using Oksana's genuine portrait -->
+        <div class="hero-media">
+          <div class="hero-image-frame">
+            <img src="oksana-matviichuk.png" alt="Oksana Matviichuk - Gesichtsmassage Therapeutin" width="540" height="480">
+          </div>
+          <div class="hero-floating-card">
+            <div class="floating-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            </div>
+            <div>
+              <div class="floating-title" data-i18n="hero.floating_title">Oksana Matviichuk</div>
+              <div class="floating-sub" data-i18n="hero.floating_sub">Achtsame Berührung & sichtbare Frische</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4 Pillars Section (Ganzheitlicher Ansatz) -->
+    <section class="pillars-section" aria-label="Grundwerte">
+      <div class="container">
+        <div class="pillars-grid">
+          
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="pillar-title" data-i18n="pillar1.title">Ganzheitlicher Ansatz</h3>
+            <p class="pillar-desc" data-i18n="pillar1.desc">Körper, Geist und Haut im Einklang.</p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+              </svg>
+            </div>
+            <h3 class="pillar-title" data-i18n="pillar2.title">Natürliche Methoden</h3>
+            <p class="pillar-desc" data-i18n="pillar2.desc">Effektive Techniken für Ihre natürliche Schönheit.</p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <h3 class="pillar-title" data-i18n="pillar3.title">Individuelle Behandlung</h3>
+            <p class="pillar-desc" data-i18n="pillar3.desc">Genau an die Bedürfnisse Ihres Gesichts angepasst.</p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
+              </svg>
+            </div>
+            <h3 class="pillar-title" data-i18n="pillar4.title">Wohlbefinden & Balance</h3>
+            <p class="pillar-desc" data-i18n="pillar4.desc">Entspannung und frische Energie für Ihren Alltag.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- "Für wen?" Section & 4 Benefit Icons -->
+    <section class="forwhom-section" id="benefits">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag" data-i18n="forwhom.tag">FÜR WEN?</span>
+          <h2 class="section-title" data-i18n="forwhom.title">Für alle, die sich und ihrer Haut etwas Gutes tun möchten</h2>
+          <div class="leaf-divider">
+            <svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg>
+          </div>
+          <p class="section-subtitle" data-i18n="forwhom.intro">
+            Gesichtsmassage wirkt tief in Gewebe und Faszien, regt die Mikrozirkulation an und lässt Anspannungen des Alltags sanft abfallen.
+          </p>
+        </div>
+
+        <!-- 4 Benefit Cards with Circular Icons -->
+        <div class="benefits-grid">
+          
+          <div class="benefit-card">
+            <div class="benefit-circle-icon">
+              <!-- Glow Icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="4"></circle>
+                <path d="M12 2v2"></path><path d="M12 20v2"></path>
+                <path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path>
+                <path d="M2 12h2"></path><path d="M20 12h2"></path>
+                <path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title" data-i18n="benefit1.title">Natürlicher Glow</h3>
+            <p class="benefit-desc" data-i18n="benefit1.desc">Frischer, rosiger und lebendiger Teint durch angeregte Zirkulation.</p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-circle-icon">
+              <!-- Relaxation Leaf Icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title" data-i18n="benefit2.title">Tiefe Entspannung</h3>
+            <p class="benefit-desc" data-i18n="benefit2.desc">Löst Spannungen in Kiefer, Schläfen und Nacken. Fördert innere Ruhe.</p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-circle-icon">
+              <!-- Lifting Contour Icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a9 9 0 0 0-9 9c0 4.17 2.84 7.67 6.69 8.69L12 22l2.31-2.31C18.16 18.67 21 15.17 21 11a9 9 0 0 0-9-9z"></path>
+                <path d="M8 12s1.5 2 4 2 4-2 4-2"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title" data-i18n="benefit3.title">Straffung & Lifting</h3>
+            <p class="benefit-desc" data-i18n="benefit3.desc">Aktiviert Faszien und Muskulatur, definiert die Konturen ganz ohne Nadeln.</p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-circle-icon">
+              <!-- Circulation Drop Icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title" data-i18n="benefit4.title">Bessere Durchblutung</h3>
+            <p class="benefit-desc" data-i18n="benefit4.desc">Versorgt Hautzellen optimal mit Sauerstoff und unterstützt den Lymphfluss.</p>
+          </div>
+
+        </div>
+
+        <!-- Checklist Comparison: Suitable vs Contraindications -->
+        <div class="checklist-wrapper">
+          
+          <div class="checklist-col suitable">
+            <h3 data-i18n="checklist.suitable_title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Besonders wohltuend bei:
+            </h3>
+            <ul class="checklist-list">
+              <li class="checklist-item">
+                <svg class="checklist-icon check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="checklist.s1">Müder, verspannter Gesichtsmuskulatur & Zähneknirschen (Bruxismus)</span>
+              </li>
+              <li class="checklist-item">
+                <svg class="checklist-icon check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="checklist.s2">Fältchen, Mimiklinien und beginnendem Elastizitätsverlust</span>
+              </li>
+              <li class="checklist-item">
+                <svg class="checklist-icon check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="checklist.s3">Schlaffen Gesichtskonturen, müder Kinnlinie oder Schwellungen</span>
+              </li>
+              <li class="checklist-item">
+                <svg class="checklist-icon check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="checklist.s4">Fahlem, unruhigem oder ungleichmässigem Teint</span>
+              </li>
+              <li class="checklist-item">
+                <svg class="checklist-icon check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span data-i18n="checklist.s5">Stress, Kopfschmerzen und dem Wunsch nach einer tiefen Auszeit</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="checklist-col notsuitable">
+            <h3 data-i18n="checklist.notsuitable_title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              Nicht geeignet bei (Kontraindikationen):
+            </h3>
+            <ul class="checklist-list">
+              <li class="checklist-item">
+                <svg class="checklist-icon cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                <span data-i18n="checklist.n1">Akuten Entzündungen oder offenen Wunden im Gesicht</span>
+              </li>
+              <li class="checklist-item">
+                <svg class="checklist-icon cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                <span data-i18n="checklist.n2">Akutem Herpes oder ansteckenden Hauterkrankungen</span>
+              </li>
+              <li class="checklist-item">
+                <svg class="checklist-icon cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                <span data-i18n="checklist.n3">Schwerer, entzündlicher Akne</span>
+              </li>
+              <li class="checklist-item">
+                <svg class="checklist-icon cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                <span data-i18n="checklist.n4">Fieber, grippalen Infekten oder akuten Erkrankungen</span>
+              </li>
+              <li class="checklist-item">
+                <svg class="checklist-icon cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                <span data-i18n="checklist.n5">Frischen Unterspritzungen (Botox/Filler) oder Fäden (mind. 4 Wochen Abstand)</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About Me Section (Oksana's Authentic Story + Studio Room) -->
+    <section class="about-section" id="about">
+      <div class="container about-grid">
+        
+        <!-- Media Column: Portrait + Real Room Photo -->
+        <div class="about-media-col">
+          <div class="about-portrait-card">
+            <img src="oksana-matviichuk.png" alt="Oksana Matviichuk" width="480" height="400">
+          </div>
+
+          <div class="about-studio-card">
+            <img src="room.png" alt="Behandlungsraum Oksana Gesichtsmassage Degersheim" width="480" height="240">
+            <div class="studio-card-caption">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+              <span data-i18n="about.studio_desc">Ein geschützter, heller Raum der Ruhe mit gemütlicher Atmosphäre, sanfter Musik und warmen Decken.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content Column: Oksana's exact words -->
+        <div class="about-content-col">
+          <span class="section-tag" data-i18n="about.tag">ÜBER MICH</span>
+          
+          <h2 class="about-quote" data-i18n="about.quote">
+            „Schönheit beginnt mit Achtsamkeit.“
+          </h2>
+
+          <div class="leaf-divider" style="margin: 0 0 24px 0; justify-content: flex-start; max-width: 200px;">
+            <svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg>
+          </div>
+
+          <p class="about-lead" data-i18n="about.lead">
+            Mein Name ist Oksana, und Gesichtsmassage bedeutet für mich viel mehr als nur eine Kombination verschiedener Techniken.
+          </p>
+
+          <div class="about-paragraphs">
+            <p data-i18n="about.p1">
+              Ich liebe es zu sehen, wie Anspannung nach und nach verschwindet, das Gesicht weicher, frischer und entspannter wirkt – und wie sich damit oft auch das eigene Wohlgefühl verändert.
+            </p>
+
+            <p data-i18n="about.p2">
+              Ich bin überzeugt, dass jedes Gesicht einzigartig ist. Jede von uns hat ihre eigenen Besonderheiten, ihre Mimik, ihre typischen Spannungsbereiche und natürlich auch ihre persönlichen Wünsche. Deshalb arbeite ich nicht nach einem festen Schema. Mir ist es wichtig, zuerst zu sehen und zu spüren, was Ihr Gesicht gerade braucht, und meine Behandlung individuell darauf abzustimmen.
+            </p>
+
+            <p data-i18n="about.p3">
+              Wenn Sie sich für einen individuellen Massagekurs entscheiden, erstelle ich für Sie einen persönlichen Behandlungsplan. Ein Kurs umfasst in der Regel 7–10 Behandlungen, wobei jede Behandlung etwas anders aussehen kann. In meiner Arbeit kombiniere ich verschiedene Methoden wie myofasziale Techniken, Lymphdrainage, Gua-Sha-Massage, Asahi-Techniken und die bukkale Gesichtsmassage. Welche Techniken ich einsetze und miteinander verbinde, hängt ganz davon ab, woran wir arbeiten und welches Ergebnis wir gemeinsam erreichen möchten.
+            </p>
+
+            <p data-i18n="about.p4">
+              Wenn Sie auch zu Hause etwas für Ihr Gesicht tun möchten, zeige ich Ihnen auf Wunsch einige einfache, individuell ausgewählte Übungen aus der Gesichtsgymnastik. Es geht dabei nicht um ein aufwendiges tägliches Training, sondern um kleine Empfehlungen, die helfen können, die Wirkung zwischen unseren Terminen zu unterstützen.
+            </p>
+
+            <p data-i18n="about.p5">
+              Natürliche Schönheit liegt mir besonders am Herzen. Ich möchte Ihr Gesicht nicht verändern oder „anders“ machen. Mein Wunsch ist es, seine natürliche Schönheit zum Vorschein zu bringen – damit es entspannter, frischer, lebendiger und gepflegter wirkt und Sie dabei ganz Sie selbst bleiben.
+            </p>
+
+            <p data-i18n="about.p6">
+              Und noch etwas ist mir wichtig: Die Zeit während der Massage soll Ihre Zeit sein. Ein Moment, in dem Sie zur Ruhe kommen, loslassen, nirgendwohin eilen müssen und sich einfach ein wenig Zeit und Aufmerksamkeit für sich selbst schenken dürfen.
+            </p>
+          </div>
+
+          <div class="about-actions">
+            <a href="#booking" class="btn btn-primary" data-i18n="hero.cta_book">Termin buchen</a>
+            <a href="#pricing" class="btn btn-secondary" data-i18n="nav.pricing">Preise ansehen</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Techniques Showcase Section -->
+    <section class="techniques-section" id="treatments">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag" data-i18n="tech.tag">METHODEN & EXPERTISE</span>
+          <h2 class="section-title" data-i18n="tech.title">Moderne & traditionelle Techniken in Harmonie</h2>
+          <div class="leaf-divider">
+            <svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg>
+          </div>
+        </div>
+
+        <div class="techniques-grid">
+          
+          <div class="tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h3 class="tech-title" data-i18n="tech.myo">Myofasziale Massage</h3>
+            <p class="tech-desc" data-i18n="tech.myo_d">Löst chronische Verspannungen der tiefen Gesichtsmuskulatur und der Faszien.</p>
+          </div>
+
+          <div class="tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
+            </div>
+            <h3 class="tech-title" data-i18n="tech.lymph">Sanfte Lymphdrainage</h3>
+            <p class="tech-desc" data-i18n="tech.lymph_d">Fördert den sanften Abtransport von gestauter Flüssigkeit und mindert Schwellungen.</p>
+          </div>
+
+          <div class="tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path></svg>
+            </div>
+            <h3 class="tech-title" data-i18n="tech.guasha">Gua-Sha & Akupressur</h3>
+            <p class="tech-desc" data-i18n="tech.guasha_d">Regt die Durchblutung an, definiert Wangenknochen und Kieferlinie.</p>
+          </div>
+
+          <div class="tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            </div>
+            <h3 class="tech-title" data-i18n="tech.asahi">Asahi-Techniken</h3>
+            <p class="tech-desc" data-i18n="tech.asahi_d">Bewährte japanische Griffe für frische Spannkraft und Straffung.</p>
+          </div>
+
+          <div class="tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a9 9 0 0 0-9 9c0 4.17 2.84 7.67 6.69 8.69L12 22l2.31-2.31C18.16 18.67 21 15.17 21 11a9 9 0 0 0-9-9z"></path></svg>
+            </div>
+            <h3 class="tech-title" data-i18n="tech.buccal">Bukkale Gesichtsmassage</h3>
+            <p class="tech-desc" data-i18n="tech.buccal_d">Tiefenentspannung der Kaumuskulatur (oral/intraoral) für spürbare Entlastung.</p>
+          </div>
+
+          <div class="tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </div>
+            <h3 class="tech-title" data-i18n="tech.gym">Face-Gymnastik für zu Hause</h3>
+            <p class="tech-desc" data-i18n="tech.gym_d">Leichte, personalisierte Übungen zur Erhaltung der Resultate im Alltag.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Pricing & Special Offers (Oksana's exact wording) -->
+    <section class="pricing-section" id="pricing">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag" data-i18n="pricing.tag">PREISE & BESONDERE ANGEBOTE</span>
+          <h2 class="section-title" data-i18n="pricing.title">Transparente Preise für Ihre Auszeit</h2>
+          <div class="leaf-divider">
+            <svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg>
+          </div>
+          <p class="section-subtitle" data-i18n="pricing.intro">
+            Mir ist wichtig, dass Sie meine Gesichtsmassage und meine Art zu arbeiten zunächst in Ruhe kennenlernen können. Spüren Sie selbst, wie sich die Behandlung für Sie anfühlt, und entscheiden Sie danach ganz entspannt, ob Sie weitermachen möchten.
+          </p>
+        </div>
+
+        <!-- Featured Row: Kennenlernangebot + Standard Einzelbehandlung -->
+        <div class="pricing-featured-row">
+          
+          <!-- Kennenlernangebot Featured Card -->
+          <div class="card-intro-offer">
+            <div>
+              <div class="intro-badge" data-i18n="intro.badge">EMPFOHLEN FÜR DEN ERSTEN TERMIN</div>
+              <h3 data-i18n="intro.title">Kennenlernangebot – Ihr erster Termin</h3>
+              <p class="intro-sub" data-i18n="intro.subtitle">Lernen Sie meine Gesichtsmassage in Ruhe kennen.</p>
+              
+              <p data-i18n="intro.detail1" style="margin-bottom: 16px; font-size: 0.95rem; color: var(--color-text-body);">
+                Beim ersten Termin nehme ich mir zusätzlich Zeit für eine persönliche Beratung und eine kurze Gesichtsanalyse.
+              </p>
+
+              <div class="intro-formula">
+                <span data-i18n="intro.formula">60 Min. Gesichtsmassage + 15 Min. persönliche Beratung</span>
+                <span data-i18n="intro.duration">Gesamtdauer: ca. 75 Minuten</span>
+              </div>
+            </div>
+
+            <div>
+              <div class="intro-price-row">
+                <span class="price-main" data-i18n="intro.price">70 CHF</span>
+                <span class="price-old" data-i18n="intro.price_old">statt 80 CHF</span>
+              </div>
+
+              <p class="intro-note" data-i18n="intro.note">
+                Gemeinsam schauen wir, was Ihr Gesicht braucht, und ich passe die Massage individuell an Sie an.
+              </p>
+
+              <a href="#booking" class="btn btn-primary btn-lg" style="width: 100%;" data-i18n="intro.btn">
+                Kennenlerntermin buchen
+              </a>
+            </div>
+          </div>
+
+          <!-- Standard Einzelbehandlung Card -->
+          <div class="card-standard-offer">
+            <div>
+              <span class="section-tag" style="margin-bottom: 8px;">EINZELTERMIN</span>
+              <h3 data-i18n="standard.title">Standard Einzelbehandlung</h3>
+              <p style="color: var(--color-terracotta); font-style: italic; margin-bottom: 16px;" data-i18n="standard.subtitle">Eine Behandlung nur für Sie.</p>
+              <p style="color: var(--color-text-body); font-size: 0.95rem; line-height: 1.6;" data-i18n="standard.desc">
+                Wohltuende, individuell angepasste Gesichtsmassage inklusive Dekolleté, Nacken und sanfter Gesichtspflege.
+              </p>
+            </div>
+
+            <div>
+              <div class="standard-price-row">
+                <div style="font-size: 0.9rem; color: var(--color-text-muted); margin-bottom: 4px;" data-i18n="standard.duration">Dauer: 60 Minuten</div>
+                <div class="price-main" style="font-size: 2.6rem;" data-i18n="standard.price">80 CHF</div>
+              </div>
+
+              <p style="font-size: 0.88rem; color: var(--color-text-muted); margin-bottom: 24px;" data-i18n="standard.note">
+                Ideal für regelmässige Erholung und Frische.
+              </p>
+
+              <a href="#booking" class="btn btn-secondary btn-lg" style="width: 100%;" data-i18n="standard.btn">
+                Einzeltermin buchen
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Abonnements & Kurse (Besondere Angebote) -->
+        <div id="offers">
+          <div class="packages-grid">
+            
+            <!-- Package 1: Ein Monat Zeit für sich -->
+            <div class="package-card">
+              <div>
+                <span class="package-pill" data-i18n="sub1.badge">BELIEBT</span>
+                <h4 data-i18n="sub1.title">Ein Monat Zeit für sich</h4>
+                <div class="package-price" data-i18n="sub1.price">280 CHF</div>
+                <div class="package-calc" data-i18n="sub1.calc">70 CHF pro Behandlung (Sie sparen 40 CHF)</div>
+                <p class="package-desc" data-i18n="sub1.desc">
+                  4 Behandlungen innerhalb eines Monats – 70 CHF pro Behandlung. Eine schöne Möglichkeit für alle, die Gesichtsmassage regelmässig erleben und beobachten möchten, wie das Gesicht auf die kontinuierliche Behandlung reagiert.
+                </p>
+              </div>
+
+              <div>
+                <ul class="package-features">
+                  <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>4 Behandlungen innerhalb von 4 Wochen</span>
+                  </li>
+                  <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Ideal zum Aufbau nachhaltiger Hautentspannung</span>
+                  </li>
+                </ul>
+
+                <a href="#booking" class="btn btn-primary" style="width: 100%;" data-i18n="sub1.btn">
+                  Monatspaket anfragen
+                </a>
+              </div>
+            </div>
+
+            <!-- Package 2: Individueller Massagekurs 7-10 Behandlungen -->
+            <div class="package-card">
+              <div>
+                <span class="package-pill" data-i18n="sub2.badge">NACHHALTIGE ERGEBNISSE</span>
+                <h4 data-i18n="sub2.title">Individueller Massagekurs</h4>
+                <div class="package-price" data-i18n="sub2.duration">7–10 Behandlungen</div>
+                <div class="package-calc">Personalisierter Behandlungsplan</div>
+                <p class="package-desc" data-i18n="sub2.desc">
+                  Wenn Sie sich eine intensivere und gezielte Begleitung wünschen, erstelle ich nach unserem ersten Termin einen individuellen Behandlungsplan für Sie. Häufigkeit und Kombination der verschiedenen Techniken werden auf Ihr Gesicht, Ihre persönlichen Bedürfnisse und Ihre Wünsche abgestimmt.
+                </p>
+              </div>
+
+              <div>
+                <ul class="package-features">
+                  <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span data-i18n="sub2.benefit1">Tiefere Wirkung auf Muskulatur, Bindegewebe und Haut</span>
+                  </li>
+                  <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span data-i18n="sub2.benefit2">Sichtbare Verbesserung von Konturen, Falten und Spannkraft</span>
+                  </li>
+                  <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span data-i18n="sub2.benefit3">Langfristige Ergebnisse und Vorbeugung</span>
+                  </li>
+                  <li>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span data-i18n="sub2.benefit4">Danach: 1 Erhaltungsbehandlung pro Monat empfohlen</span>
+                  </li>
+                </ul>
+
+                <a href="#booking" class="btn btn-secondary" style="width: 100%;" data-i18n="sub2.btn">
+                  Kurs besprechen
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- How it works (3 Steps) -->
+    <section class="steps-section" aria-label="Ablauf">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag" data-i18n="steps.tag">SO EINFACH GEHT'S</span>
+          <h2 class="section-title" data-i18n="steps.title">In 3 Schritten zu Ihrer Auszeit</h2>
+          <div class="leaf-divider">
+            <svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg>
+          </div>
+        </div>
+
+        <div class="steps-grid">
+          
+          <div class="step-card">
+            <div class="step-number" data-i18n="step1.num">1</div>
+            <h3 class="step-title" data-i18n="step1.title">Termin wählen</h3>
+            <p class="step-desc" data-i18n="step1.desc">
+              Wählen Sie Ihren Wunschtermin online in unserem Buchungskalender oder schreiben Sie mir direkt per WhatsApp.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number" data-i18n="step2.num">2</div>
+            <h3 class="step-title" data-i18n="step2.title">Bequem buchen & zahlen</h3>
+            <p class="step-desc" data-i18n="step2.desc">
+              Zahlen Sie sicher online via TWINT / Karte oder wählen Sie Barzahlung bzw. TWINT vor Ort im Studio.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number" data-i18n="step3.num">3</div>
+            <h3 class="step-title" data-i18n="step3.title">Ankommen & Wohlfühlen</h3>
+            <p class="step-desc" data-i18n="step3.desc">
+              Kommen Sie entspannt in Degersheim an und geniessen Sie Ihre massgeschneiderte Auszeit.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Booking Section & Calendar Overview -->
+    <section class="booking-section" id="booking">
+      <div class="container">
+        
+        <div class="booking-box booking-box--cta">
+          
+          <div class="section-header" style="margin-bottom: 28px;">
+            <span class="section-tag" data-i18n="booking.tag">IHRE PERSÖNLICHE AUSZEIT</span>
+            <h2 class="section-title" data-i18n="booking.title">Gönnen Sie sich Ihre wohlverdiente Pause</h2>
+            <div class="leaf-divider">
+              <svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg>
+            </div>
+            <p class="section-subtitle" data-i18n="booking.subtitle" style="max-width: 680px; margin: 0 auto;">
+              Schenken Sie Ihrer Haut frische Vitalität und Ihrem Geist tiefe Entspannung. Wählen Sie Ihre Lieblingsbehandlung und sichern Sie sich mit wenigen Klicks Ihren persönlichen Verwöhnmoment.
+            </p>
+          </div>
+
+          <div class="booking-action-bar" style="margin: 0; justify-content: center; flex-wrap: wrap; gap: 18px;">
+            <button type="button" class="btn btn-booking-cta" id="openBookingModalBtn">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              <span data-i18n="booking.btn_main">Jetzt Termin online buchen</span>
+              <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+
+            <a href="https://wa.me/41761234567?text=Hallo%20Oksana,%20ich%20interessiere%20mich%20f%C3%BCr%20einen%20Gesichtsmassage-Termin." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-subtle" data-i18n="booking.btn_wa">
+              <!-- WhatsApp Icon -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.3z"/></svg>
+              Termin per WhatsApp anfragen
+            </a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="booking-trust-badges">
+            <div class="trust-badge-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              <span data-i18n="booking.trust_time">Einfach & schnell online reservieren</span>
+            </div>
+            <div class="trust-badge-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              <span data-i18n="booking.trust_care">Individuell auf Ihre Haut abgestimmt</span>
+            </div>
+            <div class="trust-badge-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              <span data-i18n="booking.trust_room">Ruhige Atmosphäre in Degersheim</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Payment Section (TWINT & Cards) -->
+    <section class="payment-section" id="payment">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag" data-i18n="payment.tag">SICHERE BEZAHLUNG</span>
+          <h2 class="section-title" data-i18n="payment.title">Bequem & flexibel bezahlen</h2>
+          <div class="leaf-divider">
+            <svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg>
+          </div>
+          <p class="section-subtitle" data-i18n="payment.desc">
+            Sie können Ihre Behandlung direkt online bei der Buchung oder vor Ort im Studio begleichen.
+          </p>
+        </div>
+
+        <div class="payment-grid">
+          
+          <!-- TWINT Card -->
+          <div class="payment-card">
+            <div class="payment-icon-wrap">
+              <span class="twint-badge">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm4 0h-2v-6h2v6zm-2-8c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/></svg>
+                TWINT
+              </span>
+            </div>
+            <h3 data-i18n="payment.twint_title">Zahlung mit TWINT</h3>
+            <p data-i18n="payment.twint_desc">
+              Schnell, bargeldlos und sicher direkt mit dem Schweizer Smartphone via TWINT bezahlen. Funktioniert sowohl online als auch per QR-Code im Studio.
+            </p>
+          </div>
+
+          <!-- Cards -->
+          <div class="payment-card">
+            <div class="payment-icon-wrap">
+              <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="var(--color-terracotta)" stroke-width="1.8"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+            </div>
+            <h3 data-i18n="payment.card_title">Kreditkarte & Debitkarte</h3>
+            <p data-i18n="payment.card_desc">
+              Akzeptanz aller gängigen Karten (Mastercard, Visa, PostFinance) über die sichere Online-Zahlungsabwicklung.
+            </p>
+          </div>
+
+          <!-- Cash -->
+          <div class="payment-card">
+            <div class="payment-icon-wrap">
+              <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="var(--color-terracotta)" stroke-width="1.8"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            </div>
+            <h3 data-i18n="payment.cash_title">Barzahlung vor Ort</h3>
+            <p data-i18n="payment.cash_desc">
+              Selbstverständlich können Sie auch wie gewohnt vor Ort in Schweizer Franken (CHF) bar bezahlen.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Location & Directions -->
+    <section class="location-section" id="location">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag" data-i18n="location.tag">STANDORT & ANFAHRT</span>
+          <h2 class="section-title" data-i18n="location.title">So finden Sie zu mir</h2>
+          <div class="leaf-divider">
+            <svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg>
+          </div>
+        </div>
+
+        <div class="location-grid">
+          
+          <div class="location-info">
+            <div class="location-card">
+              <h4 data-i18n="location.address_label">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Adresse
+              </h4>
+              <p>
+                <strong>Oksana Gesichtsmassage</strong><br>
+                Sennrütistrasse 17<br>
+                9113 Degersheim, Schweiz
+              </p>
+            </div>
+
+            <div class="location-card">
+              <h4 data-i18n="location.transit_title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                Öffentliche Verkehrsmittel
+              </h4>
+              <p data-i18n="location.transit_desc">
+                Nur wenige Gehminuten vom Bahnhof Degersheim entfernt. Bequeme Anbindung ab St. Gallen, Herisau und Gossau.
+              </p>
+            </div>
+
+            <div class="location-card">
+              <h4 data-i18n="location.parking_title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9 17V7h4a3 3 0 0 1 0 6H9"></path></svg>
+                Parkplätze
+              </h4>
+              <p data-i18n="location.parking_desc">
+                Besucherparkplätze befinden sich direkt beim Gebäude oder in unmittelbarer Nähe.
+              </p>
+            </div>
+
+            <a href="https://maps.google.com/?q=Sennr%C3%BCtistrasse+17,+9113+Degersheim" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="location.map_btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon><line x1="9" y1="3" x2="9" y2="18"></line><line x1="15" y1="6" x2="15" y2="21"></line></svg>
+              Route auf Google Maps öffnen
+            </a>
+          </div>
+
+          <!-- Embedded Google Map -->
+          <div class="map-frame-wrapper">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.81845112109!2d9.201655076829775!3d47.37059880447333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479b207559cb3c7b%3A0x7d25e0c58e7bb680!2sSennr%C3%BCtistrasse%2017%2C%209113%20Degersheim%2C%20Switzerland!5e0!3m2!1sde!2sch!4v1710000000000!5m2!1sde!2sch" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade" 
+              title="Standort Oksana Gesichtsmassage Degersheim">
+            </iframe>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      
+      <div class="footer-top">
+        
+        <!-- Brand Summary -->
+        <div class="footer-brand">
+          <div class="brand-logo" style="margin-bottom: 8px;">
+            <div class="brand-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2a9 9 0 0 0-9 9c0 4.17 2.84 7.67 6.69 8.69L12 22l2.31-2.31C18.16 18.67 21 15.17 21 11a9 9 0 0 0-9-9z"></path></svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-name">Oksana</span>
+              <span class="brand-sub">GESICHTSMASSAGE</span>
+            </div>
+          </div>
+          <p class="footer-about" data-i18n="footer.about_text">
+            Oksana Gesichtsmassage – Individuelle Gesichtsmassage für natürliche Schönheit, tiefe Entspannung und achtsame Berührung in Degersheim.
+          </p>
+        </div>
+
+        <!-- Links -->
+        <div>
+          <h4 class="footer-title" data-i18n="footer.quick_links">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about" data-i18n="nav.about">Über mich</a></li>
+            <li><a href="#treatments" data-i18n="nav.treatments">Behandlungen</a></li>
+            <li><a href="#pricing" data-i18n="nav.pricing">Preise & Abos</a></li>
+            <li><a href="#booking" data-i18n="nav.booking">Termin buchen</a></li>
+            <li><a href="#location" data-i18n="nav.location">Standort & Anfahrt</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h4 class="footer-title" data-i18n="footer.contact_title">Kontakt</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:+41761234567">+41 76 123 45 67</a>
+            </li>
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:info@oksana-gesichtsmassage.ch">info@oksana-gesichtsmassage.ch</a>
+            </li>
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              <a href="https://instagram.com/oksana_gesichtsmassage" target="_blank" rel="noopener noreferrer">@oksana_gesichtsmassage</a>
+            </li>
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Sennrütistrasse 17, 9113 Degersheim</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Languages & Studio -->
+        <div>
+          <h4 class="footer-title" data-i18n="footer.languages_title">Sprachen im Studio</h4>
+          <p style="font-size: 0.9rem; color: #B2A79F; margin-bottom: 20px;" data-i18n="footer.languages_desc">
+            Ich berate Sie gerne auf Deutsch, Russisch oder Ukrainisch.
+          </p>
+
+          <h4 class="footer-title" data-i18n="footer.hours_title">Öffnungszeiten</h4>
+          <p style="font-size: 0.9rem; color: #B2A79F;">
+            Mi, Do, Fr<br>
+            nach Terminvereinbarung
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div data-i18n="footer.rights">© 2026 Oksana Gesichtsmassage · Alle Rechte vorbehalten.</div>
+        <div class="footer-legal-links">
+          <a href="impressum.html" class="footer-legal-link" data-i18n="footer.impressum">Impressum</a>
+          <a href="datenschutz.html" class="footer-legal-link" data-i18n="footer.datenschutz">Datenschutz</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Booking Modal (Service Selection & Payment/Platform Forwarding) -->
+  <div class="modal-backdrop" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-window">
+      <button type="button" class="modal-close-btn" id="closeBookingModal" aria-label="Schliessen">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalTitle" data-i18n="modal.book_title">Termin buchen</h3>
+        <p style="font-size: 0.95rem; color: var(--color-text-muted);" data-i18n="modal.book_p">
+          Wählen Sie Ihre gewünschte Behandlung und wechseln Sie zur Online-Buchung mit TWINT/Kartenzahlung:
+        </p>
+      </div>
+
+      <div class="treatment-select-list">
+        <label class="treatment-select-item selected">
+          <div>
+            <strong data-i18n="modal.opt_intro">Kennenlernangebot (75 Min.) – 70 CHF</strong>
+            <div style="font-size: 0.82rem; color: var(--color-text-muted);">Inkl. 15 Min. persönlicher Beratung</div>
+          </div>
+          <input type="radio" name="treatmentChoice" value="intro" checked>
+        </label>
+
+        <label class="treatment-select-item">
+          <div>
+            <strong data-i18n="modal.opt_standard">Standard Gesichtsmassage (60 Min.) – 80 CHF</strong>
+            <div style="font-size: 0.82rem; color: var(--color-text-muted);">Individuelle Wohlfühlbehandlung</div>
+          </div>
+          <input type="radio" name="treatmentChoice" value="standard">
+        </label>
+
+        <label class="treatment-select-item">
+          <div>
+            <strong data-i18n="modal.opt_month">Ein Monat Zeit für sich (4 Termine) – 280 CHF</strong>
+            <div style="font-size: 0.82rem; color: var(--color-text-muted);">70 CHF pro Behandlung</div>
+          </div>
+          <input type="radio" name="treatmentChoice" value="month">
+        </label>
+
+        <label class="treatment-select-item">
+          <div>
+            <strong data-i18n="modal.opt_custom">Individueller Kurs (7–10 Termine)</strong>
+            <div style="font-size: 0.82rem; color: var(--color-text-muted);">Nach individueller Absprache</div>
+          </div>
+          <input type="radio" name="treatmentChoice" value="course">
+        </label>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <button type="button" class="btn btn-primary btn-lg" id="proceedToPlatformBtn" style="width: 100%;" data-i18n="modal.btn_proceed">
+          Weiter zur Terminauswahl & Zahlung
+        </button>
+
+        <a href="https://wa.me/41761234567?text=Hallo%20Oksana,%20ich%20m%C3%B6chte%20gerne%20einen%20Termin%20anfragen." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;" data-i18n="modal.wa_contact">
+          Oder schreiben Sie mir direkt auf WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Legal Modal: Impressum & DSG -->
+  <div class="modal-backdrop" id="legalModal" role="dialog" aria-modal="true">
+    <div class="modal-window">
+      <button type="button" class="modal-close-btn" id="closeLegalModal" aria-label="Schliessen">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div class="modal-header">
+        <h3 class="modal-title" id="legalModalTitle">Impressum</h3>
+      </div>
+      <div id="legalModalBody" style="font-size: 0.94rem; line-height: 1.7; color: var(--color-text-body);">
+        <!-- Injected dynamically based on language -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Nach oben scrollen">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- JavaScript Modules -->
+  <script src="translations.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
