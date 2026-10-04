@@ -1,10 +1,9 @@
 /**
  * Oksana Gesichtsmassage - Application Logic
- * Multilingual Engine (DE / RU / UA), Modals, Booking & Navigation
+ * Multilingual Engine (DE / RU / UA), Direct WhatsApp CTA & Navigation
  */
 
-// Configurable Booking Platform URL (e.g. Salonkee, Fresha, Treatwell, Calendly, or custom booking tool)
-const BOOKING_PLATFORM_URL = "https://wa.me/41761234567?text=Hallo%20Oksana,%20ich%20m%C3%B6chte%20gerne%20einen%20Gesichtsmassage-Termin%20buchen.";
+const WHATSAPP_PHONE = "41761234567";
 
 document.addEventListener("DOMContentLoaded", () => {
   // Current active language (default 'de', or from localStorage)
@@ -17,6 +16,18 @@ document.addEventListener("DOMContentLoaded", () => {
      1. Language Switcher Engine
      -------------------------------------------------------------------------- */
   const langButtons = document.querySelectorAll(".lang-btn");
+
+  function updateWhatsAppLinks(lang) {
+    const waElements = document.querySelectorAll("[data-wa-type]");
+    waElements.forEach((el) => {
+      const type = el.getAttribute("data-wa-type") || "general";
+      const message = (waMessages[lang] && waMessages[lang][type]) 
+        ? waMessages[lang][type] 
+        : (waMessages["de"][type] || "Hallo Oksana, ich möchte gerne einen Termin vereinbaren.");
+      const url = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(message)}`;
+      el.setAttribute("href", url);
+    });
+  }
 
   function setLanguage(lang) {
     if (!translations[lang]) return;
@@ -52,6 +63,9 @@ document.addEventListener("DOMContentLoaded", () => {
         el.setAttribute("placeholder", translation);
       }
     });
+
+    // Update localized WhatsApp CTA links
+    updateWhatsAppLinks(lang);
   }
 
   // Bind clicks to language buttons
@@ -62,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Initialize initial language
+  // Initialize language
   setLanguage(currentLang);
 
   /* --------------------------------------------------------------------------
@@ -95,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   /* --------------------------------------------------------------------------
-     3. Header Elevation on Scroll
+     3. Header Elevation & Back to Top on Scroll
      -------------------------------------------------------------------------- */
   const header = document.getElementById("header");
   const backToTop = document.getElementById("backToTop");
@@ -127,13 +141,14 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   /* --------------------------------------------------------------------------
-     4. Booking Modal & Flow
+     4. Legal Modals: Impressum & Datenschutz
      -------------------------------------------------------------------------- */
-  const bookingModal = document.getElementById("bookingModal");
-  const openBookingModalBtn = document.getElementById("openBookingModalBtn");
-  const closeBookingModal = document.getElementById("closeBookingModal");
-  const proceedToPlatformBtn = document.getElementById("proceedToPlatformBtn");
-  const treatmentItems = document.querySelectorAll(".treatment-select-item");
+  const legalModal = document.getElementById("legalModal");
+  const legalModalTitle = document.getElementById("legalModalTitle");
+  const legalModalBody = document.getElementById("legalModalBody");
+  const closeLegalModal = document.getElementById("closeLegalModal");
+  const openImpressumBtn = document.getElementById("openImpressumBtn");
+  const openDatenschutzBtn = document.getElementById("openDatenschutzBtn");
 
   function openModal(modal) {
     if (!modal) return;
@@ -146,65 +161,6 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.classList.remove("active");
     document.body.style.overflow = "";
   }
-
-  if (openBookingModalBtn && bookingModal) {
-    openBookingModalBtn.addEventListener("click", () => openModal(bookingModal));
-  }
-
-  if (closeBookingModal && bookingModal) {
-    closeBookingModal.addEventListener("click", () => closeModal(bookingModal));
-  }
-
-  // Close modals on clicking backdrop
-  document.querySelectorAll(".modal-backdrop").forEach((backdrop) => {
-    backdrop.addEventListener("click", (e) => {
-      if (e.target === backdrop) {
-        closeModal(backdrop);
-      }
-    });
-  });
-
-  // Treatment choice highlight in modal
-  treatmentItems.forEach((item) => {
-    item.addEventListener("click", () => {
-      treatmentItems.forEach((i) => i.classList.remove("selected"));
-      item.classList.add("selected");
-      const radio = item.querySelector("input[type='radio']");
-      if (radio) radio.checked = true;
-    });
-  });
-
-  // Proceed to platform with selected treatment
-  if (proceedToPlatformBtn) {
-    proceedToPlatformBtn.addEventListener("click", () => {
-      const selectedRadio = document.querySelector("input[name='treatmentChoice']:checked");
-      const treatmentVal = selectedRadio ? selectedRadio.value : "intro";
-      
-      let message = "Hallo Oksana, ich möchte gerne einen Termin buchen:";
-      if (treatmentVal === "intro") message += " Kennenlernangebot (75 Min., 70 CHF)";
-      else if (treatmentVal === "standard") message += " Standard Gesichtsmassage (60 Min., 80 CHF)";
-      else if (treatmentVal === "month") message += " Ein Monat Zeit für sich (4 Termine, 280 CHF)";
-      else if (treatmentVal === "course") message += " Individueller Massagekurs (7-10 Termine)";
-
-      // In production, this can point to the external booking engine (Salonkee, Treatwell, Fresha, Calendly)
-      const targetUrl = BOOKING_PLATFORM_URL.includes("wa.me") 
-        ? `https://wa.me/41761234567?text=${encodeURIComponent(message)}`
-        : BOOKING_PLATFORM_URL;
-
-      window.open(targetUrl, "_blank", "noopener,noreferrer");
-      closeModal(bookingModal);
-    });
-  }
-
-  /* --------------------------------------------------------------------------
-     5. Legal Modals: Impressum & Datenschutz
-     -------------------------------------------------------------------------- */
-  const legalModal = document.getElementById("legalModal");
-  const legalModalTitle = document.getElementById("legalModalTitle");
-  const legalModalBody = document.getElementById("legalModalBody");
-  const closeLegalModal = document.getElementById("closeLegalModal");
-  const openImpressumBtn = document.getElementById("openImpressumBtn");
-  const openDatenschutzBtn = document.getElementById("openDatenschutzBtn");
 
   if (openImpressumBtn && legalModal) {
     openImpressumBtn.addEventListener("click", () => {
@@ -225,6 +181,15 @@ document.addEventListener("DOMContentLoaded", () => {
   if (closeLegalModal && legalModal) {
     closeLegalModal.addEventListener("click", () => closeModal(legalModal));
   }
+
+  // Close modal on backdrop click
+  document.querySelectorAll(".modal-backdrop").forEach((backdrop) => {
+    backdrop.addEventListener("click", (e) => {
+      if (e.target === backdrop) {
+        closeModal(backdrop);
+      }
+    });
+  });
 
   // Keyboard escape closes modals
   document.addEventListener("keydown", (e) => {

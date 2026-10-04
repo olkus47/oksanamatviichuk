@@ -10,10 +10,10 @@ const translations = {
     "nav.treatments": "Behandlungen",
     "nav.pricing": "Preise",
     "nav.offers": "Aktuell",
-    "nav.booking": "Termin buchen",
+    "nav.booking": "Termin anfragen",
     "nav.contact": "Kontakt",
     "nav.location": "Standort",
-    "nav.book_cta": "Termin buchen",
+    "nav.book_cta": "Termin anfragen",
 
     // Top Bar
     "topbar.location": "Sennrütistrasse 17, 9113 Degersheim, Schweiz",
@@ -24,23 +24,26 @@ const translations = {
     "hero.title": "Individuelle Gesichtsmassage für Ihre natürliche Schönheit",
     "hero.subtitle": "Sanfte Techniken. Tiefe Wirkung. Für Haut, Muskulatur und nachhaltiges Wohlbefinden.",
     "hero.description": "Gönnen Sie sich eine wohltuende Auszeit in ruhiger Atmosphäre. Eine sanfte, ganzheitliche Behandlung, die Ihre Gesichtsmuskulatur entspannt und Ihre natürliche Ausstrahlung zum Strahlen bringt.",
-    "hero.cta_book": "Termin buchen",
+    "hero.cta_book": "Termin per WhatsApp",
     "hero.cta_learn": "Mehr über mich",
-    "hero.quick_price": "60 Min. · 80 CHF",
-    "hero.intro_tag": "Kennenlernangebot 70 CHF",
+    "hero.quick_price": "Einzeltermin · 80 CHF",
+    "hero.intro_tag": "60 Min. Massage + 15 Min. Diagnose — 70 CHF",
     "hero.floating_title": "Oksana Matviichuk",
     "hero.floating_sub": "Achtsame Berührung & sichtbare Frische",
 
-    // Pillars / 4 Icons
-    "pillars.title": "Ganzheitlicher Ansatz für Ihr Wohlbefinden",
-    "pillar1.title": "Ganzheitlicher Ansatz",
-    "pillar1.desc": "Körper, Geist und Haut im Einklang.",
-    "pillar2.title": "Natürliche Methoden",
-    "pillar2.desc": "Effektive Techniken für Ihre natürliche Schönheit.",
-    "pillar3.title": "Individuelle Behandlung",
-    "pillar3.desc": "Genau an die Bedürfnisse Ihres Gesichts angepasst.",
-    "pillar4.title": "Wohlbefinden & Balance",
-    "pillar4.desc": "Entspannung und frische Energie für Ihren Alltag.",
+    // Testimonials / Reviews (Replaced feature squares)
+    "reviews.tag": "KUNDENSTIMMEN",
+    "reviews.title": "Was Kundinnen sagen",
+    "reviews.subtitle": "Echte Erfahrungen und Eindrücke nach der Behandlung in Degersheim.",
+    "review1.text": "„Schon nach dem ersten Termin fühlte sich mein Gesicht so viel leichter und entspannter an. Die Kombination der Techniken ist einfach wunderbar wohltuend.“",
+    "review1.author": "Sarah M.",
+    "review1.location": "Degersheim",
+    "review2.text": "„Eine Oase der Ruhe. Oksana spürt genau, wo die Verspannungen im Kiefer und an den Schläfen sitzen. Die Haut strahlt danach förmlich.“",
+    "review2.author": "Elena K.",
+    "review2.location": "St. Gallen",
+    "review3.text": "„Sehr achtsam und professionell. Kein Standardprogramm, sondern genau auf meine Bedürfnisse abgestimmt. Ich komme regelmässig wieder.“",
+    "review3.author": "Laura B.",
+    "review3.location": "Herisau",
 
     // Für wen? (Benefits)
     "forwhom.tag": "FÜR WEN?",
@@ -70,63 +73,44 @@ const translations = {
     "checklist.n4": "Fieber, grippalen Infekten oder akuten Erkrankungen",
     "checklist.n5": "Frischen Unterspritzungen (Botox/Filler) oder Fäden (mind. 4 Wochen Abstand)",
 
-    // About Me (Oksana's exact text)
+    // About Me (Item 3 verbatim new German text)
     "about.tag": "ÜBER MICH",
     "about.quote": "„Schönheit beginnt mit Achtsamkeit.“",
-    "about.lead": "Mein Name ist Oksana, und Gesichtsmassage bedeutet für mich viel mehr als nur eine Kombination verschiedener Techniken.",
-    "about.p1": "Ich liebe es zu sehen, wie Anspannung nach und nach verschwindet, das Gesicht weicher, frischer und entspannter wirkt – und wie sich damit oft auch das eigene Wohlgefühl verändert.",
-    "about.p2": "Ich bin überzeugt, dass jedes Gesicht einzigartig ist. Jede von uns hat ihre eigenen Besonderheiten, ihre Mimik, ihre typischen Spannungsbereiche und natürlich auch ihre persönlichen Wünsche. Deshalb arbeite ich nicht nach einem festen Schema. Mir ist es wichtig, zuerst zu sehen und zu spüren, was Ihr Gesicht gerade braucht, und meine Behandlung individuell darauf abzustimmen.",
-    "about.p3": "Wenn Sie sich für einen individuellen Massagekurs entscheiden, erstelle ich für Sie einen persönlichen Behandlungsplan. Ein Kurs umfasst in der Regel 7–10 Behandlungen, wobei jede Behandlung etwas anders aussehen kann. In meiner Arbeit kombiniere ich verschiedene Methoden wie myofasziale Techniken, Lymphdrainage, Gua-Sha-Massage, Asahi-Techniken und die bukkale Gesichtsmassage. Welche Techniken ich einsetze und miteinander verbinde, hängt ganz davon ab, woran wir arbeiten und welches Ergebnis wir gemeinsam erreichen möchten.",
-    "about.p4": "Wenn Sie auch zu Hause etwas für Ihr Gesicht tun möchten, zeige ich Ihnen auf Wunsch einige einfache, individuell ausgewählte Übungen aus der Gesichtsgymnastik. Es geht dabei nicht um ein aufwendiges tägliches Training, sondern um kleine Empfehlungen, die helfen können, die Wirkung zwischen unseren Terminen zu unterstützen.",
-    "about.p5": "Natürliche Schönheit liegt mir besonders am Herzen. Ich möchte Ihr Gesicht nicht verändern oder „anders“ machen. Mein Wunsch ist es, seine natürliche Schönheit zum Vorschein zu bringen – damit es entspannter, frischer, lebendiger und gepflegter wirkt und Sie dabei ganz Sie selbst bleiben.",
-    "about.p6": "Und noch etwas ist mir wichtig: Die Zeit während der Massage soll Ihre Zeit sein. Ein Moment, in dem Sie zur Ruhe kommen, loslassen, nirgendwohin eilen müssen und sich einfach ein wenig Zeit und Aufmerksamkeit für sich selbst schenken dürfen.",
-    "about.studio_badge": "Therapieraum Degersheim",
+    "about.p1": "Die Gesichtsmassage begann für mich aus einem persönlichen Interesse an natürlicher Pflege und dem Erhalt der Schönheit. Mit der Zeit wurde aus diesem Interesse ein Beruf: Ich habe eine professionelle Ausbildung absolviert und die Qualifikation als Massage-Ästhetikerin erworben, und ich bilde mich laufend in verschiedenen Techniken der Gesichtsmassage weiter.",
+    "about.p2": "Für mich ist jedes Gesicht einzigartig, deshalb arbeite ich nicht nach einem festen Standardschema. Beim ersten Termin achte ich auf den Zustand des Gewebes, muskuläre Spannungen, Schwellungen und individuelle Besonderheiten des Gesichts. Darauf aufbauend kombiniere ich verschiedene Techniken — lymphdrainierende, myofasziale, bukkale, Gua Sha und weitere — und gestalte die Massage genau nach den Bedürfnissen der jeweiligen Person.",
+    "about.p3": "Es freut mich zu sehen, wie das Gesicht nach der Massage entspannter, frischer und lebendiger wirkt. Genau wegen dieser natürlichen Veränderungen liebe ich meine Arbeit.",
     "about.studio_desc": "Ein geschützter, heller Raum der Ruhe mit gemütlicher Atmosphäre, sanfter Musik und warmen Decken.",
 
-    // Techniques Showcase
-    "tech.tag": "METHODEN & EXPERTISE",
-    "tech.title": "Moderne & traditionelle Techniken in Harmonie",
-    "tech.myo": "Myofasziale Massage",
-    "tech.myo_d": "Löst chronische Verspannungen der tiefen Gesichtsmuskulatur und der Faszien.",
-    "tech.lymph": "Sanfte Lymphdrainage",
-    "tech.lymph_d": "Fördert den sanften Abtransport von gestauter Flüssigkeit und mindert Schwellungen.",
-    "tech.guasha": "Gua-Sha & Akupressur",
-    "tech.guasha_d": "Regt die Durchblutung an, definiert Wangenknochen und Kieferlinie.",
-    "tech.asahi": "Asahi-Techniken",
-    "tech.asahi_d": "Bewährte japanische Griffe für frische Spannkraft und Straffung.",
-    "tech.buccal": "Bukkale Gesichtsmassage",
-    "tech.buccal_d": "Tiefenentspannung der Kaumuskulatur (oral/intraoral) für spürbare Entlastung.",
-    "tech.gym": "Face-Gymnastik für zu Hause",
-    "tech.gym_d": "Leichte, personalisierte Übungen zur Erhaltung der Resultate im Alltag.",
+    // Treatments / Philosophy (Item 6 Reframed: Combined techniques within one massage)
+    "tech.tag": "BEHANDLUNGSKONZEPT",
+    "tech.title": "Ein Massageerlebnis — individuell kombiniert für Ihr Gesicht",
+    "tech.desc": "Ich biete keine isolierten Einzelbehandlungen nach starrem Katalog an. Vor und während jeder Sitzung erfasse ich den aktuellen Zustand Ihres Gewebes, Spannungen der Kaumuskulatur und den Lymphfluss. Darauf aufbauend kombiniere ich fliessend verschiedene wirksame Techniken — wie myofasziale Griffe, sanfte Lymphdrainage, bukkale Tiefenentspannung und Gua Sha — genau abgestimmt auf das, was Ihr Gesicht in diesem Moment braucht.",
+    "tech.card1_title": "Gezielte Wahrnehmung",
+    "tech.card1_desc": "Aufmerksamkeit für Gewebe, mimische Spannungszonen und Schwellungen vor jeder Behandlung.",
+    "tech.card2_title": "Individuelle Kombination",
+    "tech.card2_desc": "Fließendes Zusammenspiel aus Myofaszien-, Lymph-, Bukkale- und Gua-Sha-Elementen nach aktuellem Bedarf.",
+    "tech.card3_title": "Natürliche Wirkung",
+    "tech.card3_desc": "Sichtbare Frische, tief gelöste Muskulatur und ein entspannter, lebendiger Gesichtsausdruck.",
 
-    // Special Offers & Pricing (Oksana's exact texts)
-    "pricing.tag": "PREISE & BESONDERE ANGEBOTE",
-    "pricing.title": "Transparente Preise für Ihre Auszeit",
-    "pricing.intro": "Mir ist wichtig, dass Sie meine Gesichtsmassage und meine Art zu arbeiten zunächst in Ruhe kennenlernen können. Spüren Sie selbst, wie sich die Behandlung für Sie anfühlt, und entscheiden Sie danach ganz entspannt, ob Sie weitermachen möchten.",
+    // Special Offers & Pricing
+    "pricing.tag": "PREISE & ANGEBOTE",
+    "pricing.title": "Preise & Angebote",
 
-    // Kennenlernangebot
-    "intro.badge": "EMPFOHLEN FÜR DEN ERSTEN TERMIN",
-    "intro.title": "Kennenlernangebot – Ihr erster Termin",
-    "intro.subtitle": "Lernen Sie meine Gesichtsmassage in Ruhe kennen.",
-    "intro.detail1": "Beim ersten Termin nehme ich mir zusätzlich Zeit für eine persönliche Beratung und eine kurze Gesichtsanalyse.",
-    "intro.formula": "60 Min. Gesichtsmassage + 15 Min. persönliche Beratung",
-    "intro.duration": "Gesamtdauer: ca. 75 Minuten",
-    "intro.price_label": "Kennenlernpreis:",
-    "intro.price": "70 CHF",
-    "intro.price_old": "statt 80 CHF",
-    "intro.note": "Gemeinsam schauen wir, was Ihr Gesicht braucht, und ich passe die Massage individuell an Sie an.",
-    "intro.btn": "Kennenlerntermin buchen",
+    // Kennenlernangebot (Items 4 & 8: Keep ONLY 60 Min. + 15 Min. Diagnose — 70 CHF)
+    "intro.badge": "ERSTER TERMIN",
+    "intro.simplified_text": "60 Minuten Massage + 15 Minuten Diagnose — 70 CHF",
+    "intro.btn": "Kennenlerntermin anfragen",
 
-    // Standard Single
-    "standard.title": "Standard Einzelbehandlung",
+    // Vollständige persönliche Gesichtsmassage (Item 9: Renamed)
+    "standard.title": "Vollständige persönliche Gesichtsmassage",
     "standard.subtitle": "Eine Behandlung nur für Sie.",
     "standard.desc": "Wohltuende, individuell angepasste Gesichtsmassage inklusive Dekolleté, Nacken und sanfter Gesichtspflege.",
     "standard.duration": "Dauer: 60 Minuten",
     "standard.price": "80 CHF",
-    "standard.btn": "Einzeltermin buchen",
+    "standard.btn": "Einzeltermin anfragen",
     "standard.note": "Ideal für regelmässige Erholung und Frische.",
 
-    // Packages / Abos (Besondere Angebote)
+    // Packages / Abos
     "offers.title": "Abonnements & Kuren",
     "sub1.badge": "BELIEBT",
     "sub1.title": "Ein Monat Zeit für sich",
@@ -134,60 +118,32 @@ const translations = {
     "sub1.unit": "für 4 Behandlungen",
     "sub1.calc": "70 CHF pro Behandlung (Sie sparen 40 CHF)",
     "sub1.desc": "4 Behandlungen innerhalb eines Monats. Eine schöne Möglichkeit für alle, die Gesichtsmassage regelmässig erleben und beobachten möchten, wie das Gesicht auf die kontinuierliche Behandlung reagiert.",
+    "sub1.feature1": "4 Behandlungen innerhalb von 4 Wochen",
+    "sub1.feature2": "Ideal zum Aufbau nachhaltiger Hautentspannung",
     "sub1.btn": "Monatspaket anfragen",
 
+    // Item 11: 10 Behandlungen — 590 CHF, no follow-up session mention
     "sub2.badge": "NACHHALTIGE ERGEBNISSE",
     "sub2.title": "Individueller Massagekurs",
-    "sub2.duration": "7–10 Behandlungen",
-    "sub2.desc": "Wenn Sie sich eine intensivere und gezielte Begleitung wünschen, erstelle ich nach unserem ersten Termin einen individuellen Behandlungsplan für Sie. Häufigkeit und Kombination der verschiedenen Techniken werden auf Ihr Gesicht, Ihre persönlichen Bedürfnisse und Ihre Wünsche abgestimmt.",
+    "sub2.duration": "10 Behandlungen — 590 CHF",
+    "sub2.calc": "Personalisierter Behandlungsplan",
+    "sub2.desc": "Wenn Sie sich eine intensivere und gezielte Begleitung wünschen, erstelle ich nach unserem ersten Termin einen individuellen Behandlungsplan für Sie. Häufigkeit und Kombination der Techniken werden genau auf Ihr Gesicht, Ihre persönlichen Bedürfnisse und Ihre Wünsche abgestimmt.",
     "sub2.benefit1": "Tiefere Wirkung auf Muskulatur, Bindegewebe und Haut",
     "sub2.benefit2": "Sichtbare Verbesserung von Konturen, Falten und Spannkraft",
     "sub2.benefit3": "Langfristige Ergebnisse und Vorbeugung",
-    "sub2.benefit4": "Danach: 1 Erhaltungsbehandlung pro Monat empfohlen",
     "sub2.btn": "Kurs besprechen",
 
-    // How it works
-    "steps.tag": "SO EINFACH GEHT'S",
-    "steps.title": "In 3 Schritten zu Ihrer Auszeit",
-    "step1.num": "1",
-    "step1.title": "Termin wählen",
-    "step1.desc": "Wählen Sie Ihren Wunschtermin online in unserem Buchungskalender oder schreiben Sie mir direkt per WhatsApp.",
-    "step2.num": "2",
-    "step2.title": "Bequem buchen & zahlen",
-    "step2.desc": "Zahlen Sie sicher online via TWINT / Karte oder wählen Sie Barzahlung bzw. TWINT vor Ort im Studio.",
-    "step3.num": "3",
-    "step3.title": "Ankommen & Wohlfühlen",
-    "step3.desc": "Kommen Sie entspannt in Degersheim an und geniessen Sie Ihre massgeschneiderte Auszeit.",
+    // Simplified Payment Info (Item 14: One simple line)
+    "payment.simple_info": "Zahlung vor Ort — bar oder mit TWINT",
 
-    // Booking Section & Hours
-    "booking.tag": "IHRE PERSÖNLICHE AUSZEIT",
+    // Booking Section (Item 13: tag removed; Item 16: WhatsApp direct booking)
     "booking.title": "Gönnen Sie sich Ihre wohlverdiente Pause",
-    "booking.subtitle": "Schenken Sie Ihrer Haut frische Vitalität und Ihrem Geist tiefe Entspannung. Wählen Sie Ihre Lieblingsbehandlung und sichern Sie sich mit wenigen Klicks Ihren persönlichen Verwöhnmoment.",
-    "booking.trust_time": "Einfach & schnell online reservieren",
+    "booking.subtitle": "Vereinbaren Sie Ihren Termin ganz einfach und unkompliziert direkt per WhatsApp. Ich freue mich auf Ihre Nachricht!",
+    "booking.trust_time": "Direkte persönliche Terminabsprache",
     "booking.trust_care": "Individuell auf Ihre Haut abgestimmt",
     "booking.trust_room": "Ruhige Atmosphäre in Degersheim",
-    "booking.open_title": "Verfügbare Tage & Behandlungszeiten:",
-    "booking.wed": "Mittwoch",
-    "booking.wed_slots": "09:00–10:00 · 10:30–11:30 · 12:00–13:00 · 14:00–15:00 · 15:30–16:30",
-    "booking.thu": "Donnerstag",
-    "booking.thu_slots": "09:00–10:00 · 10:30–11:30 · 12:00–13:00",
-    "booking.fri": "Freitag",
-    "booking.fri_slots": "11:00–12:00 · 12:30–13:30 · 14:00–15:00",
-    "booking.notice": "Hinweis: Der Behandlungsraum wird geteilt genutzt. Über den Buchungslink sehen Sie in Echtzeit alle aktuell freien Termine.",
-    "booking.btn_main": "Jetzt Termin online buchen",
-    "booking.btn_wa": "Termin per WhatsApp anfragen",
+    "booking.btn_wa_main": "Termin per WhatsApp anfragen",
     "booking.wa_phone": "+41 76 123 45 67",
-
-    // Payment Block
-    "payment.tag": "SICHERE BEZAHLUNG",
-    "payment.title": "Bequem & flexibel bezahlen",
-    "payment.desc": "Sie können Ihre Behandlung direkt online bei der Buchung oder vor Ort im Studio begleichen.",
-    "payment.twint_title": "Zahlung mit TWINT",
-    "payment.twint_desc": "Schnell, bargeldlos und sicher direkt mit dem Schweizer Smartphone via TWINT bezahlen. Funktioniert sowohl online als auch per QR-Code im Studio.",
-    "payment.card_title": "Kreditkarte & Debitkarte",
-    "payment.card_desc": "Akzeptanz aller gängigen Karten (Mastercard, Visa, PostFinance) über die sichere Online-Zahlungsabwicklung.",
-    "payment.cash_title": "Barzahlung vor Ort",
-    "payment.cash_desc": "Selbstverständlich können Sie auch wie gewohnt vor Ort in Schweizer Franken (CHF) bar bezahlen.",
 
     // Location
     "location.tag": "STANDORT & ANFAHRT",
@@ -211,17 +167,6 @@ const translations = {
     "footer.impressum": "Impressum",
     "footer.datenschutz": "Datenschutz",
 
-    // Modals
-    "modal.close": "Schliessen",
-    "modal.book_title": "Termin buchen",
-    "modal.book_p": "Wählen Sie Ihre gewünschte Behandlung und wechseln Sie zur Online-Buchung mit TWINT/Kartenzahlung:",
-    "modal.opt_intro": "Kennenlernangebot (75 Min.) – 70 CHF",
-    "modal.opt_standard": "Standard Gesichtsmassage (60 Min.) – 80 CHF",
-    "modal.opt_month": "Ein Monat Zeit für sich (4 Termine) – 280 CHF",
-    "modal.opt_custom": "Individueller Kurs (7–10 Termine)",
-    "modal.btn_proceed": "Weiter zur Terminauswahl & Zahlung",
-    "modal.wa_contact": "Oder schreiben Sie mir direkt auf WhatsApp",
-
     // Legal Modals
     "legal.imp_title": "Impressum",
     "legal.dsg_title": "Datenschutzerklärung (DSG Schweiz)",
@@ -238,19 +183,17 @@ Webseite: www.oksana-gesichtsmassage.ch<br><br>
     "legal.dsg_content": `<strong>Datenschutzerklärung nach Schweizer Datenschutzgesetz (DSG)</strong><br><br>
 Der Schutz Ihrer persönlichen Daten ist uns ein grosses Anliegen. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften der Schweiz.<br><br>
 <strong>1. Erhebung und Bearbeitung von Daten:</strong><br>
-Wenn Sie mit uns Kontakt aufnehmen (z.B. per Kontaktformular, Buchungslink oder E-Mail), werden die von Ihnen gemachten Angaben zur Bearbeitung der Anfrage und allfälligen Terminierung gespeichert.<br><br>
-<strong>2. Externe Buchungs- und Zahlungsdienste:</strong><br>
-Für die Terminbuchung und Online-Zahlung (z.B. via TWINT oder Kreditkarte) können zertifizierte Dienstleister eingebunden werden, die modernste Verschlüsselungsstandards gewährleisten.<br><br>
-<strong>3. Ihre Rechte:</strong><br>
+Wenn Sie mit uns Kontakt aufnehmen (z.B. per WhatsApp oder E-Mail), werden die von Ihnen gemachten Angaben zur Bearbeitung der Anfrage und allfälligen Terminierung verwendet.<br><br>
+<strong>2. Ihre Rechte:</strong><br>
 Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gespeicherten personenbezogenen Daten. Wenden Sie sich hierzu jederzeit an info@oksana-gesichtsmassage.ch.`
   },
 
   ru: {
     // Navigation
     "nav.about": "Обо мне",
-    "nav.treatments": "Процедуры",
+    "nav.treatments": "Методика",
     "nav.pricing": "Цены",
-    "nav.offers": "Акции",
+    "nav.offers": "Курсы",
     "nav.booking": "Записаться",
     "nav.contact": "Контакты",
     "nav.location": "Локация",
@@ -265,23 +208,26 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
     "hero.title": "Индивидуальный массаж лица для вашей естественной красоты",
     "hero.subtitle": "Мягкие техники. Глубокое действие. Для кожи, мышц и душевного спокойствия.",
     "hero.description": "Позвольте себе восстанавливающую паузу в уютной, тихой атмосфере. Бережный уход, снимающий мышечные зажимы и раскрывающий ваше сияние.",
-    "hero.cta_book": "Записаться на приём",
+    "hero.cta_book": "Записаться в WhatsApp",
     "hero.cta_learn": "Обо мне",
-    "hero.quick_price": "60 мин. · 80 CHF",
-    "hero.intro_tag": "Первое знакомство 70 CHF",
+    "hero.quick_price": "Разовый сеанс · 80 CHF",
+    "hero.intro_tag": "60 мин. массаж + 15 мин. диагностика — 70 CHF",
     "hero.floating_title": "Оксана Матвийчук",
     "hero.floating_sub": "Бережное прикосновение и видимая свежесть",
 
-    // Pillars / 4 Icons
-    "pillars.title": "Целостный подход к вашей красоте",
-    "pillar1.title": "Целостный подход",
-    "pillar1.desc": "Тело, разум и кожа в абсолютной гармонии.",
-    "pillar2.title": "Естественные методы",
-    "pillar2.desc": "Эффективные бережные техники для вашей красоты.",
-    "pillar3.title": "Индивидуальный подход",
-    "pillar3.desc": "С учетом анатомических особенностей вашего лица.",
-    "pillar4.title": "Баланс и покой",
-    "pillar4.desc": "Глубокое расслабление и прилив сил для будней.",
+    // Testimonials / Reviews (Replaced feature squares)
+    "reviews.tag": "ОТЗЫВЫ",
+    "reviews.title": "Отзывы клиенток",
+    "reviews.subtitle": "Впечатления и результаты после сеансов массажа в Дегерсхайме.",
+    "review1.text": "«Уже после первого визита лицо почувствовало невероятную легкость и расслабление. Сочетание техник подобрано потрясающе чутко.»",
+    "review1.author": "Сара М.",
+    "review1.location": "Дегерсхайм",
+    "review2.text": "«Настоящий оазис тишины и отдыха. Оксана точно чувствует зоны напряжения в челюсти и висках. Кожа после сеанса буквально сияет.»",
+    "review2.author": "Елена К.",
+    "review2.location": "Санкт-Галлен",
+    "review3.text": "«Очень бережно и профессионально. Никаких шаблонных схем — всё индивидуально под состояние лица. С радостью хожу регулярно.»",
+    "review3.author": "Лаура Б.",
+    "review3.location": "Херизау",
 
     // Für wen? (Benefits)
     "forwhom.tag": "ДЛЯ КОГО?",
@@ -311,124 +257,77 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
     "checklist.n4": "Температура, ОРВИ и общее недомогание",
     "checklist.n5": "Свежие инъекции (ботокс, филлеры) или нити (менее 4 недель)",
 
-    // About Me (Oksana's exact Russian text)
+    // About Me (Item 3 verbatim Russian text)
     "about.tag": "ОБО МНЕ",
     "about.quote": "«Красота начинается с чуткости и внимания к себе.»",
-    "about.lead": "Меня зовут Оксана, и массаж лица для меня — это гораздо больше, чем просто набор техник.",
-    "about.p1": "Мне очень нравится видеть, как постепенно уходит напряжение, лицо становится мягче, свежее, спокойнее, а вместе с этим меняется и внутреннее ощущение женщины.",
-    "about.p2": "Я уверена, что двух одинаковых лиц не бывает. У каждой из нас свои особенности, привычные напряжения, своя мимика и свои пожелания. Поэтому я не работаю по одной схеме для всех. Мне важно сначала увидеть и почувствовать, что именно нужно вашему лицу, и уже исходя из этого выстроить работу.",
-    "about.p3": "Если вы приходите ко мне на индивидуальный курс, я составляю персональный план. Обычно курс включает 7–10 процедур, и каждая из них может немного отличаться от предыдущей. В своей работе я соединяю разные техники: миофасциальный и лимфодренажный массаж, гуаша, техники Асахи и буккальный массаж. Я выбираю и комбинирую их в зависимости от того, с чем именно мы работаем и какого результата хотим достичь.",
-    "about.p4": "А если вам хочется продолжать заботиться о лице и дома, я с удовольствием подберу несколько простых упражнений по фейс-гимнастике именно для вас. Это не сложные ежедневные тренировки, а небольшие рекомендации, которые помогают поддерживать результат между нашими встречами.",
-    "about.p5": "Мне близка идея естественной красоты. Я не хочу менять ваше лицо или делать его «другим». Мне хочется помочь ему раскрыться — стать более расслабленным, свежим, живым и ухоженным, сохранив при этом именно ваши черты.",
-    "about.p6": "И ещё для меня очень важно, чтобы время массажа было вашим временем — когда можно остановиться, расслабиться, никуда не спешить и просто позволить себе немного заботы о себе.",
-    "about.studio_badge": "Студия в Дегерсхайме",
+    "about.p1": "Массаж лица начался для меня с личного интереса к естественному уходу и сохранению красоты. Со временем этот интерес стал профессией: я прошла профессиональное обучение и получила квалификацию массажиста-эстетиста, а также продолжаю изучать и осваивать различные техники массажа лица.",
+    "about.p2": "Для меня каждое лицо индивидуально, поэтому я не работаю по одной стандартной схеме. На первой встрече я обращаю внимание на состояние тканей, мышечное напряжение, отёчность и особенности лица. В зависимости от этого я соединяю разные техники — лимфодренажные, миофасциальные, буккальные, Gua Sha и другие — и выстраиваю массаж именно под потребности конкретного человека.",
+    "about.p3": "Мне нравится видеть, как после массажа лицо становится более расслабленным, свежим и живым. Именно ради этих естественных изменений я и люблю свою работу.",
     "about.studio_desc": "Уютное, светлое пространство для отдыха и гармонии с теплым освещением и спокойной музыкой.",
 
-    // Techniques Showcase
-    "tech.tag": "МЕТОДЫ И ТЕХНИКИ",
-    "tech.title": "Сочетание проверенных авторских и классических методик",
-    "tech.myo": "Миофасциальный массаж",
-    "tech.myo_d": "Глубокая проработка мышечных спазмов и фасциальных натяжений.",
-    "tech.lymph": "Лимфодренажный массаж",
-    "tech.lymph_d": "Снятие застоя жидкости, уменьшение припухлостей под глазами.",
-    "tech.guasha": "Гуаша и акупрессура",
-    "tech.guasha_d": "Скульптурирование контуров и стимуляция кровотока.",
-    "tech.asahi": "Техники Асахи",
-    "tech.asahi_d": "Японский лифтинг-массаж для упругости и тонуса кожи.",
-    "tech.buccal": "Буккальный массаж",
-    "tech.buccal_d": "Интенсивное расслабление жевательных мышц лица изнутри и снаружи.",
-    "tech.gym": "Фейс-гимнастика на дом",
-    "tech.gym_d": "Несложные практические упражнения для закрепления эффекта дома.",
+    // Treatments / Philosophy (Item 6 Reframed)
+    "tech.tag": "КОНЦЕПЦИЯ УХОДА",
+    "tech.title": "Один массаж — индивидуальное сочетание техник для вашего лица",
+    "tech.desc": "Я не разделяю массаж на отдельные изолированные процедуры по каталогу. Перед каждым сеансом и во время него я оцениваю состояние тканей, напряжение жевательных и мимических мышц, а также лимфоток. Исходя из этого, я соединяю в одной процедуре различные техники — миофасциальные, лимфодренажные, буккальные элементы и Gua Sha — именно так, как это необходимо вашему лицу в данный момент.",
+    "tech.card1_title": "Чуткая оценка состояния",
+    "tech.card1_desc": "Внимание к тканям, мимическим спазмам и склонности к отёкам перед каждым сеансом.",
+    "tech.card2_title": "Индивидуальный микс техник",
+    "tech.card2_desc": "Гармоничное соединение миофасциальных, лимфодренажных, буккальных и Gua Sha приёмов под вашу задачу.",
+    "tech.card3_title": "Естественный результат",
+    "tech.card3_desc": "Глубокое мышечное расслабление, свежий цвет лица и подтянутые контуры без искусственного вмешательства.",
 
-    // Special Offers & Pricing (Oksana's exact Russian text)
-    "pricing.tag": "ЦЕНЫ И СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ",
-    "pricing.title": "Прозрачные условия для вашего выбора",
-    "pricing.intro": "Мне хочется, чтобы у вас была возможность сначала познакомиться с массажем, почувствовать мой подход и спокойно решить, хотите ли вы продолжить.",
+    // Special Offers & Pricing (Item 7: removed "Прозрачные условия" & "Мне хочется")
+    "pricing.tag": "ЦЕНЫ И ПРЕДЛОЖЕНИЯ",
+    "pricing.title": "Цены и предложения",
 
-    // Kennenlernangebot
-    "intro.badge": "СПЕЦИАЛЬНАЯ ЦЕНА НА ПЕРВЫЙ ВИЗИТ",
-    "intro.title": "Первое знакомство – Ваш первый визит",
-    "intro.subtitle": "Познакомьтесь с массажем лица без спешки.",
-    "intro.detail1": "На первой встрече я уделяю дополнительное время личной консультации и короткому анализу состояния кожи.",
-    "intro.formula": "60 мин. массаж лица + 15 мин. личная консультация",
-    "intro.duration": "Общая продолжительность: около 75 минут",
-    "intro.price_label": "Цена знакомства:",
-    "intro.price": "70 CHF",
-    "intro.price_old": "вместо 80 CHF",
-    "intro.note": "Вместе мы посмотрим, что нужно вашему лицу, и я настрою массаж индивидуально под вас.",
+    // Kennenlernangebot (Items 4 & 8: Keep ONLY 60 мин. + 15 мин. диагностика — 70 CHF)
+    "intro.badge": "ПЕРВЫЙ ВИЗИТ",
+    "intro.simplified_text": "60 минут массаж + 15 минут диагностика — 70 CHF",
     "intro.btn": "Записаться на знакомство",
 
-    // Standard Single
-    "standard.title": "Стандартная процедура",
+    // Vollständige persönliche Gesichtsmassage (Item 9: Renamed)
+    "standard.title": "Полноценный персональный массаж лица",
     "standard.subtitle": "Процедура, созданная только для вас.",
     "standard.desc": "Полноценный персональный массаж лица, зоны декольте и шейно-воротниковой зоны с бережным уходом.",
     "standard.duration": "Длительность: 60 минут",
     "standard.price": "80 CHF",
     "standard.btn": "Записаться на сеанс",
-    "standard.note": "Обычная стоимость одной процедуры — 80 CHF.",
+    "standard.note": "Идеально для регулярного отдыха и поддержания тонуса.",
 
-    // Packages / Abos
+    // Packages / Abos (Item 10: Clean proofread Russian text with no German fragments)
     "offers.title": "Абонементы и курсы",
     "sub1.badge": "ПОПУЛЯРНЫЙ ВЫБОР",
     "sub1.title": "Месяц заботы о себе",
     "sub1.price": "280 CHF",
     "sub1.unit": "за 4 процедуры",
     "sub1.calc": "по 70 CHF за процедуру (экономия 40 CHF)",
-    "sub1.desc": "4 процедуры в течение месяца — по 70 CHF за процедуру. Хороший вариант для тех, кто хочет попробовать регулярный массаж и увидеть, как лицо реагирует на последовательную работу.",
+    "sub1.desc": "4 процедуры в течение месяца — по 70 CHF за процедуру. Отличная возможность регулярно посещать массаж лица и оценить накопительный эффект от непрерывного ухода.",
+    "sub1.feature1": "4 процедуры в течение 4 недель",
+    "sub1.feature2": "Идеально для стабильного снятия мышечного напряжения",
     "sub1.btn": "Выбрать курс на месяц",
 
+    // Item 11: 10 процедур — 590 CHF, no maintenance session mention
     "sub2.badge": "ГЛУБОКИЙ РЕЗУЛЬТАТ",
     "sub2.title": "Индивидуальный курс",
-    "sub2.duration": "7–10 процедур",
-    "sub2.desc": "Если вы хотите более глубокую и системную работу, после первой встречи я составлю для вас индивидуальный план. Частоту процедур и сочетание техник мы подбираем с учётом особенностей вашего лица и ваших пожеланий.",
+    "sub2.duration": "10 процедур — 590 CHF",
+    "sub2.calc": "Персональный план процедур",
+    "sub2.desc": "Если вы хотите более глубокую и системную работу, после первой встречи я составлю для вас индивидуальный план. Частоту встреч и сочетание техник мы подбираем с учётом особенностей вашего лица и ваших пожеланий.",
     "sub2.benefit1": "Глубокое воздействие на мышцы, фасции и качество кожи",
     "sub2.benefit2": "Заметное улучшение контуров, упругости и разглаживание складок",
     "sub2.benefit3": "Долгосрочный накопительный эффект и профилактика",
-    "sub2.benefit4": "После курса: 1 поддерживающая процедура в месяц",
     "sub2.btn": "Обсудить курс",
 
-    // How it works
-    "steps.tag": "КАК ЭТО РАБОТАЕТ",
-    "steps.title": "3 простых шага к вашему отдыху",
-    "step1.num": "1",
-    "step1.title": "Выбор времени",
-    "step1.desc": "Выберите удобный день и время онлайн в расписании или напишите мне в WhatsApp.",
-    "step2.num": "2",
-    "step2.title": "Удобная оплата",
-    "step2.desc": "Оплачивайте прямо онлайн через TWINT / карту или на месте в студии наличными либо по QR-коду TWINT.",
-    "step3.num": "3",
-    "step3.title": "Отдых и забота",
-    "step3.desc": "Приезжайте в Дегерсхайм и наслаждайтесь вниманием, тишиной и бережным массажем.",
+    // Simplified Payment Info (Item 14: One simple line)
+    "payment.simple_info": "Оплата на месте — наличными или TWINT",
 
-    // Booking Section & Hours
-    "booking.tag": "ВАШЕ ВРЕМЯ ДЛЯ СЕБЯ",
-    "booking.title": "Подарите себе заслуженный отдых и сияние",
-    "booking.subtitle": "Подарите своей коже свежесть и упругость, а себе — глубокое расслабление и восстановление. Выберите подходящий массаж и забронируйте удобное время всего в несколько кликов.",
-    "booking.trust_time": "Удобная запись онлайн в 1 минуту",
+    // Booking Section (Item 13: tag removed; Item 16: WhatsApp direct booking)
+    "booking.title": "Подарите себе заслуженный отдых",
+    "booking.subtitle": "Договоритесь об удобном времени визита легко и быстро прямо в WhatsApp. Буду рада вашему сообщению!",
+    "booking.trust_time": "Прямая личная связь для записи",
     "booking.trust_care": "Индивидуальный подход к вашей коже",
     "booking.trust_room": "Уютная атмосфера в Дегерсхайме",
-    "booking.open_title": "Дни приёма и временные слоты:",
-    "booking.wed": "Среда",
-    "booking.wed_slots": "09:00–10:00 · 10:30–11:30 · 12:00–13:00 · 14:00–15:00 · 15:30–16:30",
-    "booking.thu": "Четверг",
-    "booking.thu_slots": "09:00–10:00 · 10:30–11:30 · 12:00–13:00",
-    "booking.fri": "Пятница",
-    "booking.fri_slots": "11:00–12:00 · 12:30–13:30 · 14:00–15:00",
-    "booking.notice": "Обратите внимание: пространство студии используется совместно. По ссылке онлайн-записи отображаются только свободные на данный момент слоты.",
-    "booking.btn_main": "Записаться онлайн через платформу",
-    "booking.btn_wa": "Написать в WhatsApp",
+    "booking.btn_wa_main": "Записаться через WhatsApp",
     "booking.wa_phone": "+41 76 123 45 67",
-
-    // Payment Block
-    "payment.tag": "ОПЛАТА",
-    "payment.title": "Удобные способы оплаты",
-    "payment.desc": "Вы можете оплатить процедуру заранее при онлайн-записи или непосредственно в студии.",
-    "payment.twint_title": "Оплата через TWINT",
-    "payment.twint_desc": "Быстро, безопасно и привычно со смартфона в швейцарском приложении TWINT (онлайн или по QR-коду в студии).",
-    "payment.card_title": "Банковские карты",
-    "payment.card_desc": "Принимаются все основные карты (Mastercard, Visa, PostFinance) при бронировании онлайн.",
-    "payment.cash_title": "Наличные в студии",
-    "payment.cash_desc": "Вы также можете рассчитаться наличными в швейцарских франках (CHF) после процедуры.",
 
     // Location
     "location.tag": "АДРЕС И ПРОЕЗД",
@@ -452,17 +351,6 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
     "footer.impressum": "Выходные данные (Impressum)",
     "footer.datenschutz": "Конфиденциальность (DSG)",
 
-    // Modals
-    "modal.close": "Закрыть",
-    "modal.book_title": "Запись на процедуру",
-    "modal.book_p": "Выберите желаемую услугу и перейдите к выбору свободного слота и оплате через TWINT / карту:",
-    "modal.opt_intro": "Первое знакомство (75 мин.) – 70 CHF",
-    "modal.opt_standard": "Стандартный массаж (60 мин.) – 80 CHF",
-    "modal.opt_month": "Месяц заботы о себе (4 сеанса) – 280 CHF",
-    "modal.opt_custom": "Индивидуальный курс (7–10 сеансов)",
-    "modal.btn_proceed": "Перейти к выбору времени и оплате",
-    "modal.wa_contact": "Или напишите мне прямо в WhatsApp",
-
     // Legal Modals
     "legal.imp_title": "Impressum",
     "legal.dsg_title": "Защита данных (DSG Швейцария)",
@@ -475,15 +363,15 @@ Sennrütistrasse 17<br>
 E-Mail: info@oksana-gesichtsmassage.ch<br>
 Веб-сайт: www.oksana-gesichtsmassage.ch`,
     "legal.dsg_content": `<strong>Политика конфиденциальности согласно швейцарскому закону (DSG)</strong><br><br>
-Мы с уважением относимся к защите ваших персональных данных. Данные, оставленные при записи или связи, используются исключительно для согласования времени визита и обратной связи.`
+Мы с уважением относимся к защите ваших персональных данных. Данные, оставленные при связи через WhatsApp или по почте, используются исключительно для согласования времени визита и обратной связи.`
   },
 
   ua: {
     // Navigation
     "nav.about": "Про мене",
-    "nav.treatments": "Процедури",
+    "nav.treatments": "Методика",
     "nav.pricing": "Ціни",
-    "nav.offers": "Акції",
+    "nav.offers": "Курси",
     "nav.booking": "Записатися",
     "nav.contact": "Контакти",
     "nav.location": "Локація",
@@ -498,23 +386,26 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
     "hero.title": "Індивідуальний масаж обличчя для вашої природної краси",
     "hero.subtitle": "М'які техніки. Глибока дія. Для шкіри, м'язів та внутрішньої гармонії.",
     "hero.description": "Подаруйте собі відновлюючу паузу в спокійній атмосфері. Дбайлива процедура, що знімає щоденне напруження м'язів та підкреслює вашу природну свіжість.",
-    "hero.cta_book": "Записатися на прийом",
+    "hero.cta_book": "Записатися у WhatsApp",
     "hero.cta_learn": "Про мене",
-    "hero.quick_price": "60 хв. · 80 CHF",
-    "hero.intro_tag": "Перше знайомство 70 CHF",
+    "hero.quick_price": "Разовий сеанс · 80 CHF",
+    "hero.intro_tag": "60 хв. масаж + 15 хв. діагностика — 70 CHF",
     "hero.floating_title": "Оксана Матвійчук",
     "hero.floating_sub": "Дбайливий дотик та видима свіжість",
 
-    // Pillars / 4 Icons
-    "pillars.title": "Цілісний підхід до вашої краси та спокою",
-    "pillar1.title": "Цілісний підхід",
-    "pillar1.desc": "Тіло, думки та шкіра в цілковитій гармонії.",
-    "pillar2.title": "Природні методи",
-    "pillar2.desc": "Ефективні бережні техніки для природного сяйва.",
-    "pillar3.title": "Індивідуальна робота",
-    "pillar3.desc": "Створено саме під особливості вашого обличчя.",
-    "pillar4.title": "Баланс і спокій",
-    "pillar4.desc": "Глибоке розслаблення та відновлення сил для життя.",
+    // Testimonials / Reviews (Replaced feature squares)
+    "reviews.tag": "ВІДГУКИ",
+    "reviews.title": "Відгуки клієнток",
+    "reviews.subtitle": "Враження та результати після сеансів масажу в Дегерсхаймі.",
+    "review1.text": "«Вже після першого візиту обличчя відчуло неймовірну легкість та розслаблення. Поєднання технік підібране надзвичайно тонко.»",
+    "review1.author": "Сара М.",
+    "review1.location": "Дегерсхайм",
+    "review2.text": "«Справжній оазис спокою та відновлення. Оксана безпомилково відчуває зони напруження в щелепі та скронях. Шкіра після сеансу буквально сяє.»",
+    "review2.author": "Олена К.",
+    "review2.location": "Санкт-Галлен",
+    "review3.text": "«Дуже дбайливо та професійно. Жодних шаблонних програм — усе підібрано індивідуально під стан обличчя. Із радістю приходжу регулярно.»",
+    "review3.author": "Лаура Б.",
+    "review3.location": "Герізау",
 
     // Für wen? (Benefits)
     "forwhom.tag": "ДЛЯ КОГО?",
@@ -544,124 +435,77 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
     "checklist.n4": "Температура, вірусні інфекції та загальне нездужання",
     "checklist.n5": "Свіжі ін'єкції (ботокс, філери) або нитки (менше 4 тижнів тому)",
 
-    // About Me (Oksana's authentic Ukrainian text)
+    // About Me (Item 3 Ukrainian translation matching the verbatim text)
     "about.tag": "ПРО МЕНЕ",
     "about.quote": "«Краса починається з уважності та турботи про себе.»",
-    "about.lead": "Мене звати Оксана, і масаж обличчя для мене — це значно більше, ніж просто набір технік.",
-    "about.p1": "Мені дуже подобається бачити, як поступово зникає напруження, обличчя стає м'якшим, свіжішим, спокійнішим, а разом із цим змінюється і внутрішнє відчуття жінки.",
-    "about.p2": "Я переконана, що двох однакових облич не існує. У кожної з нас свої особливості, звичні напруження, своя міміка та свої побажання. Тому я не працюю за однією схемою для всіх. Для мене важливо спочатку побачити й відчути, що саме потрібно вашому обличчю, і вже виходячи з цього вибудовувати роботу.",
-    "about.p3": "Якщо ви обираєте індивідуальний курс, я складаю для вас персональний план. Зазвичай курс включає 7–10 процедур, і кожна з них може дещо відрізнятися від попередньої. У своїй роботі я поєдную різні техніки: міофасціальний та лімфодренажний масаж, гуаша, техніки Асахі та букальний масаж. Я обираю та комбіную їх залежно від того, з чим саме ми працюємо і якого результату хочемо досягти.",
-    "about.p4": "А якщо вам хочеться піклуватися про обличчя і вдома, я із задоволенням підберу кілька простих вправ із фейс-гімнастики саме для вас. Це не складні щоденні тренування, а невеликі рекомендації, які допомагають підтримувати результат між нашими зустрічами.",
-    "about.p5": "Мені близька ідея природної краси. Я не хочу змінювати ваше обличчя чи робити його «іншим». Мені хочеться допомогти йому розкритися — стати більш розслабленим, свіжим, живим та доглянутим, зберігши при цьому саме ваші неповторні риси.",
-    "about.p6": "І ще для мене дуже важливо, щоб час масажу був саме вашим часом — коли можна зупинитися, розслабитися, нікуди не поспішати і просто дозволити собі трохи турботи про себе.",
-    "about.studio_badge": "Студія в Дегерсхаймі",
+    "about.p1": "Масаж обличчя розпочався для мене з особистого інтересу до природного догляду та збереження краси. З часом цей інтерес переріс у професію: я пройшла професійне навчання та здобула кваліфікацію масажиста-естетиста, а також продовжую вивчати й опановувати різноманітні техніки масажу обличчя.",
+    "about.p2": "Для мене кожне обличчя індивідуальне, тому я не працюю за єдиною стандартною схемою. На першій зустрічі я звертаю увагу на стан тканин, м'язове напруження, набряклість та особливості обличчя. Залежно від цього я поєдную різні техніки — лімфодренажні, міофасціальні, букальні, Gua Sha та інші — і вибудовую масаж саме під потреби конкретної людини.",
+    "about.p3": "Мені подобається бачити, як після масажу обличчя стає більш розслабленим, свіжим і живим. Саме заради цих природних змін я й люблю свою роботу.",
     "about.studio_desc": "Затишний, спокійний простір для відпочинку з м'яким освітленням і атмосферою релаксу.",
 
-    // Techniques Showcase
-    "tech.tag": "МЕТОДИ ТА ТЕХНІКИ",
-    "tech.title": "Поєднання авторських та класичних перевірених методик",
-    "tech.myo": "Міофасціальний масаж",
-    "tech.myo_d": "Глибоке розслаблення хронічних спазмів лицевих м'язів та фасцій.",
-    "tech.lymph": "Лімфодренажний масаж",
-    "tech.lymph_d": "М'який відтік застійної лімфи та зменшення набряків під очима.",
-    "tech.guasha": "Гуаша та акупресура",
-    "tech.guasha_d": "Скульптурування контурів та відновлення здорового тону шкіри.",
-    "tech.asahi": "Техніки Асахі",
-    "tech.asahi_d": "Традиційні японські рухи для тонусу та підтяжки овалу обличчя.",
-    "tech.buccal": "Букальний масаж",
-    "tech.buccal_d": "Інтенсивне зняття напруження жувальних м'язів обличчя зсередини.",
-    "tech.gym": "Фейс-гімнастика для дому",
-    "tech.gym_d": "Легкі, приємні рекомендації для підтримки свіжості щодня.",
+    // Treatments / Philosophy (Item 6 Reframed)
+    "tech.tag": "КОНЦЕПЦІЯ ДОГЛЯДУ",
+    "tech.title": "Один масаж — індивідуальне поєднання технік для вашого обличчя",
+    "tech.desc": "Я не розділяю масаж на окремі шаблонні процедури за каталогом. Перед кожним сеансом та під час нього я оцінюю стан тканин, напруження жувальних і мімічних м'язів та лімфообіг. Виходячи з цього, я гармонійно поєдную в одній процедурі різні техніки — міофасціальні, лімфодренажні, букальні елементи та Gua Sha — саме так, як це необхідно вашому обличчю в цей момент.",
+    "tech.card1_title": "Уважна оцінка стану",
+    "tech.card1_desc": "Увага до тканин, зон спазму та схильності до набряків перед кожною процедурою.",
+    "tech.card2_title": "Індивідуальне поєднання технік",
+    "tech.card2_desc": "Гармонійне поєднання міофасціальних, лімфодренажних, букальних та Gua Sha технік під вашу потребу.",
+    "tech.card3_title": "Природний живий результат",
+    "tech.card3_desc": "Глибоке розслаблення м'язів, свіжий колір та підтягнуті контури обличчя без штучних втручань.",
 
-    // Special Offers & Pricing (Ukrainian translation)
-    "pricing.tag": "ЦІНИ ТА ОСОБЛИВІ ПРОПОЗИЦІЇ",
-    "pricing.title": "Прозорі ціни для вашого відпочинку",
-    "pricing.intro": "Мені хочеться, щоб у вас була можливість спочатку спокійно познайомитися з масажем, відчути мій підхід та вирішити, чи хочете ви продовжити далі.",
+    // Special Offers & Pricing (Item 7: removed "Прозорі умови" & "Мені хочеться")
+    "pricing.tag": "ЦІНИ ТА ПРОПОЗИЦІЇ",
+    "pricing.title": "Ціни та пропозиції",
 
-    // Kennenlernangebot
-    "intro.badge": "СПЕЦІАЛЬНА ЦІНА НА ПЕРШИЙ ВІЗИТ",
-    "intro.title": "Знайомство з масажем – Ваш перший візит",
-    "intro.subtitle": "Познайомтеся з моїм масажем обличчя в спокої та затишку.",
-    "intro.detail1": "На першому візиті я приділяю додатковий час для особистої консультації та короткого аналізу стану шкіри.",
-    "intro.formula": "60 хв. масаж обличчя + 15 хв. особиста консультація",
-    "intro.duration": "Загальна тривалість: близько 75 хвилин",
-    "intro.price_label": "Ціна знайомства:",
-    "intro.price": "70 CHF",
-    "intro.price_old": "замість 80 CHF",
-    "intro.note": "Разом ми подивимося, що саме потрібно вашому обличчю, і я налаштую масаж індивідуально під вас.",
+    // Kennenlernangebot (Items 4 & 8: Keep ONLY 60 хв. + 15 хв. діагностика — 70 CHF)
+    "intro.badge": "ПЕРШИЙ ВІЗИТ",
+    "intro.simplified_text": "60 хвилин масаж + 15 хвилин діагностика — 70 CHF",
     "intro.btn": "Записатися на знайомство",
 
-    // Standard Single
-    "standard.title": "Стандартна процедура",
+    // Vollständige persönliche Gesichtsmassage (Item 9: Renamed)
+    "standard.title": "Повноцінний персональний масаж обличчя",
     "standard.subtitle": "Процедура, створена спеціально для вас.",
     "standard.desc": "Глибокий, приємний масаж обличчя, зони декольте та шиї з індивідуальним доглядом.",
     "standard.duration": "Тривалість: 60 хвилин",
     "standard.price": "80 CHF",
-    "standard.btn": "Записатися на процедуру",
-    "standard.note": "Звичайна вартість однієї процедури — 80 CHF.",
+    "standard.btn": "Записатися на сеанс",
+    "standard.note": "Ідеально для регулярного відпочинку та свіжості.",
 
-    // Packages / Abos
+    // Packages / Abos (Item 10: Clean proofread text)
     "offers.title": "Абонементи та курси",
     "sub1.badge": "ПОПУЛЯРНИЙ ВИБІР",
     "sub1.title": "Місяць турботи про себе",
     "sub1.price": "280 CHF",
     "sub1.unit": "за 4 процедури",
     "sub1.calc": "по 70 CHF за процедуру (економія 40 CHF)",
-    "sub1.desc": "4 процедури протягом одного місяця — по 70 CHF за процедуру. Чудовий варіант для тих, хто хоче спробувати регулярний масаж і побачити, як обличчя відгукується на послідовну роботу.",
+    "sub1.desc": "4 процедури протягом одного місяця — по 70 CHF за процедуру. Чудовий варіант для тих, хто хоче регулярно відвідувати масаж і спостерігати за стійкими позитивними змінами.",
+    "sub1.feature1": "4 процедури протягом 4 тижнів",
+    "sub1.feature2": "Ідеально для стабільного зняття м'язового напруження",
     "sub1.btn": "Обрати курс на місяць",
 
+    // Item 11: 10 процедур — 590 CHF, no maintenance session mention
     "sub2.badge": "СТІЙКИЙ РЕЗУЛЬТАТ",
     "sub2.title": "Індивідуальний курс",
-    "sub2.duration": "7–10 процедур",
-    "sub2.desc": "Якщо ви прагнете глибшої та системної роботи, після першої зустрічі я складу для вас індивідуальний план. Частоту процедур та поєднання технік ми підбираємо з урахуванням особливостей вашого обличчя та ваших побажань.",
+    "sub2.duration": "10 процедур — 590 CHF",
+    "sub2.calc": "Персональний план процедур",
+    "sub2.desc": "Якщо ви прагнете глибшої та системної роботи, після першої зустрічі я складу для вас індивідуальний план. Частоту зустрічей та поєднання технік ми підбираємо з урахуванням особливостей вашого обличчя та ваших побажань.",
     "sub2.benefit1": "Глибока дія на м'язи, фасції та пружність шкіри",
     "sub2.benefit2": "Помітне покращення овалу обличчя, згладження мімічних зморшок",
     "sub2.benefit3": "Довготривалий накопичувальний ефект та профілактика",
-    "sub2.benefit4": "Після курсу: 1 підтримуюча процедура на місяць",
     "sub2.btn": "Обговорити курс",
 
-    // How it works
-    "steps.tag": "ЯК ЦЕ ПРАЦЮЄ",
-    "steps.title": "3 прості кроки до вашого релаксу",
-    "step1.num": "1",
-    "step1.title": "Оберіть час",
-    "step1.desc": "Оберіть зручний для вас день і годину онлайн у розкладі або напишіть мені у WhatsApp.",
-    "step2.num": "2",
-    "step2.title": "Зручно забронюйте та оплатіть",
-    "step2.desc": "Оплачуйте миттєво онлайн через TWINT / картку або на місці в студії готівкою чи через TWINT QR-код.",
-    "step3.num": "3",
-    "step3.title": "Відпочивайте з користю",
-    "step3.desc": "Приходьте до студії в Дегерсхаймі та насолоджуйтесь персональним доглядом і спокоєм.",
+    // Simplified Payment Info (Item 14: One simple line)
+    "payment.simple_info": "Оплата на місці — готівкою або TWINT",
 
-    // Booking Section & Hours
-    "booking.tag": "ВАШ ОСОБИСТИЙ ЧАС ДЛЯ ВІДПОЧИНКУ",
-    "booking.title": "Подаруйте собі заслужений відпочинок та сяйво",
-    "booking.subtitle": "Подаруйте своїй шкірі свіжість та пружність, а собі — глибоке розслаблення та відновлення. Оберіть бажаний масаж та забронюйте зручний час усього в кілька кліків.",
-    "booking.trust_time": "Швидкий та зручний онлайн-запис",
+    // Booking Section (Item 13: tag removed; Item 16: WhatsApp direct booking)
+    "booking.title": "Подаруйте собі заслужений відпочинок",
+    "booking.subtitle": "Домовтеся про зручний час візиту легко та швидко прямо у WhatsApp. Буду рада вашому повідомленню!",
+    "booking.trust_time": "Прямий особистий зв'язок для запису",
     "booking.trust_care": "Індивідуально підібраний догляд",
-    "booking.trust_room": "Затишна атмосфера в Дегерсгаймі",
-    "booking.open_title": "Дні прийому та часові слоти:",
-    "booking.wed": "Середа",
-    "booking.wed_slots": "09:00–10:00 · 10:30–11:30 · 12:00–13:00 · 14:00–15:00 · 15:30–16:30",
-    "booking.thu": "Четвер",
-    "booking.thu_slots": "09:00–10:00 · 10:30–11:30 · 12:00–13:00",
-    "booking.fri": "П'ятниця",
-    "booking.fri_slots": "11:00–12:00 · 12:30–13:30 · 14:00–15:00",
-    "booking.notice": "Зверніть увагу: кабінет використовується спільно. За посиланням онлайн-запису ви завжди бачите актуальні вільні місця в режимі реального часу.",
-    "booking.btn_main": "Записатися онлайн через платформу",
-    "booking.btn_wa": "Написати у WhatsApp",
+    "booking.trust_room": "Затишна атмосфера в Дегерсхаймі",
+    "booking.btn_wa_main": "Записатися через WhatsApp",
     "booking.wa_phone": "+41 76 123 45 67",
-
-    // Payment Block
-    "payment.tag": "ОПЛАТА",
-    "payment.title": "Зручні та безпечні способи оплати",
-    "payment.desc": "Ви можете сплатити за процедуру заздалегідь онлайн під час запису або безпосередньо у студії.",
-    "payment.twint_title": "Оплата через TWINT",
-    "payment.twint_desc": "Швидко, безготівково та безпечно прямо зі смартфона через додаток TWINT (онлайн або за QR-кодом у студії).",
-    "payment.card_title": "Банківські картки",
-    "payment.card_desc": "Підтримуються всі основні картки (Mastercard, Visa, PostFinance) при онлайн-бронюванні.",
-    "payment.cash_title": "Готівкою в студії",
-    "payment.cash_desc": "Ви також можете розрахуватися готівкою в швейцарських франках (CHF) після сеансу.",
 
     // Location
     "location.tag": "АДРЕСА ТА ПРОЇЗД",
@@ -685,17 +529,6 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
     "footer.impressum": "Вихідні дані (Impressum)",
     "footer.datenschutz": "Конфіденційність (DSG)",
 
-    // Modals
-    "modal.close": "Закрити",
-    "modal.book_title": "Запис на процедуру",
-    "modal.book_p": "Оберіть бажану послугу та перейдіть до вибору вільного часу та оплати через TWINT / картку:",
-    "modal.opt_intro": "Перше знайомство (75 хв.) – 70 CHF",
-    "modal.opt_standard": "Стандартний масаж (60 хв.) – 80 CHF",
-    "modal.opt_month": "Місяць турботи про себе (4 сеанси) – 280 CHF",
-    "modal.opt_custom": "Індивідуальний курс (7–10 сеансів)",
-    "modal.btn_proceed": "Перейти до вибору часу та оплати",
-    "modal.wa_contact": "Або напишіть мені безпосередньо у WhatsApp",
-
     // Legal Modals
     "legal.imp_title": "Impressum",
     "legal.dsg_title": "Захист персональних даних (DSG Швейцарія)",
@@ -708,6 +541,31 @@ Sennrütistrasse 17<br>
 E-Mail: info@oksana-gesichtsmassage.ch<br>
 Веб-сайт: www.oksana-gesichtsmassage.ch`,
     "legal.dsg_content": `<strong>Політика конфіденційності згідно зі швейцарським законом (DSG)</strong><br><br>
-Ми поважаємо конфіденційність ваших персональних даних. Уся надана під час запису інформація використовується виключно для організації вашого візиту.`
+Ми поважаємо конфіденційність ваших персональних даних. Уся надана під час контакту інформація використовується виключно для організації вашого візиту та зворотного зв'язку.`
+  }
+};
+
+// WhatsApp prefilled message templates per locale and type
+const waMessages = {
+  de: {
+    general: "Hallo Oksana, ich möchte gerne einen Termin für eine Gesichtsmassage vereinbaren.",
+    intro: "Hallo Oksana, ich interessiere mich für das Kennenlernangebot (60 Min. Massage + 15 Min. Diagnose — 70 CHF).",
+    standard: "Hallo Oksana, ich interessiere mich für die Vollständige persönliche Gesichtsmassage (60 Min. — 80 CHF).",
+    month: "Hallo Oksana, ich interessiere mich für das Monatspaket «Ein Monat Zeit für sich» (4 Behandlungen — 280 CHF).",
+    course: "Hallo Oksana, ich interessiere mich für den Individuellen Massagekurs (10 Behandlungen — 590 CHF)."
+  },
+  ru: {
+    general: "Здравствуйте, Оксана! Я хочу записаться на массаж лица.",
+    intro: "Здравствуйте, Оксана! Меня интересует первое знакомство (60 минут массаж + 15 минут диагностика — 70 CHF).",
+    standard: "Здравствуйте, Оксана! Меня интересует полноценный персональный массаж лица (60 минут — 80 CHF).",
+    month: "Здравствуйте, Оксана! Меня интересует курс «Месяц заботы о себе» (4 процедуры — 280 CHF).",
+    course: "Здравствуйте, Оксана! Меня интересует индивидуальный курс (10 процедур — 590 CHF)."
+  },
+  ua: {
+    general: "Доброго дня, Оксано! Я хочу записатися на масаж обличчя.",
+    intro: "Доброго дня, Оксано! Мене цікавить перше знайомство (60 хвилин масаж + 15 хвилин діагностика — 70 CHF).",
+    standard: "Доброго дня, Оксано! Мене цікавить повноцінний персональний масаж обличчя (60 хвилин — 80 CHF).",
+    month: "Доброго дня, Оксано! Мене цікавить курс «Місяць турботи про себе» (4 процедури — 280 CHF).",
+    course: "Доброго дня, Оксано! Мене цікавить індивідуальний курс (10 процедур — 590 CHF)."
   }
 };

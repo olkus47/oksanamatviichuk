@@ -82,8 +82,18 @@ body {
   overflow-x: hidden;
   position: relative;
   -webkit-font-smoothing: antialiased;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+/* Global rule to prevent any hyphen-splits mid-word in all text */
+p, span, li, a, button, h1, h2, h3, h4, h5, h6, blockquote, label {
+  hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
 }
 
 img {
@@ -120,8 +130,11 @@ h1, h2, h3, h4, .font-serif {
   color: var(--color-text-main);
   font-weight: 500;
   line-height: 1.25;
-  word-break: break-word;
-  overflow-wrap: break-word;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 .section-tag {
@@ -144,9 +157,11 @@ h1, h2, h3, h4, .font-serif {
   font-size: clamp(1.55rem, 4.2vw, 2.75rem);
   margin-bottom: 16px;
   letter-spacing: -0.01em;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  hyphens: auto;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 .section-subtitle {
@@ -302,8 +317,9 @@ h1, h2, h3, h4, .font-serif {
 }
 
 .brand-icon svg {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
+  display: block;
 }
 
 .brand-text {
@@ -471,10 +487,11 @@ h1, h2, h3, h4, .font-serif {
   margin-bottom: 18px;
   color: var(--color-text-main);
   letter-spacing: -0.015em;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  hyphens: auto;
-  -webkit-hyphens: auto;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 .hero-subtitle {
@@ -605,73 +622,94 @@ h1, h2, h3, h4, .font-serif {
 }
 
 /* ==========================================================================
-   4 Pillars / Value Highlights Banner
+   Client Testimonials / Reviews Section (Item 5)
    ========================================================================== */
 
-.pillars-section {
-  padding: 40px 0;
-  background-color: var(--bg-body);
+.testimonials-section {
+  padding: clamp(50px, 6vw, 80px) 0;
+  background-color: var(--bg-cream-soft);
   border-bottom: 1px solid var(--color-border-light);
 }
 
-.pillars-grid {
+.testimonials-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
 }
 
-.pillar-card {
-  text-align: center;
-  padding: 24px 18px;
+.testimonial-card {
   background: var(--bg-card);
+  padding: 32px 28px;
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  transition: var(--transition);
+  border-radius: var(--radius-xl);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   box-shadow: var(--shadow-soft);
+  transition: var(--transition);
+  position: relative;
 }
 
-.pillar-card:hover {
+.testimonial-card:hover {
   transform: translateY(-4px);
-  border-color: var(--color-terracotta);
+  border-color: var(--color-peach);
   box-shadow: var(--shadow-hover);
 }
 
-.pillar-icon {
-  width: 52px;
-  height: 52px;
+.testimonial-stars {
+  color: var(--color-gold);
+  font-size: 1.15rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 16px;
+}
+
+.testimonial-quote {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  line-height: 1.68;
+  color: var(--color-text-main);
+  font-style: italic;
+  margin-bottom: 24px;
+  flex-grow: 1;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-top: 1px solid var(--color-border-light);
+  padding-top: 18px;
+}
+
+.testimonial-avatar {
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
-  margin: 0 auto 16px;
-  background: var(--bg-card-alt);
+  background: var(--color-peach-light);
   color: var(--color-terracotta);
+  font-weight: 700;
+  font-size: 1.05rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: var(--transition);
+  border: 1px solid var(--color-border);
+  flex-shrink: 0;
 }
 
-.pillar-card:hover .pillar-icon {
-  background: var(--color-terracotta);
-  color: #FFFFFF;
+.testimonial-meta {
+  display: flex;
+  flex-direction: column;
 }
 
-.pillar-icon svg {
-  width: 26px;
-  height: 26px;
-}
-
-.pillar-title {
-  font-size: 0.95rem;
+.testimonial-name {
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  font-size: 0.95rem;
   color: var(--color-text-main);
-  margin-bottom: 8px;
 }
 
-.pillar-desc {
-  font-size: 0.88rem;
+.testimonial-location {
+  font-size: 0.82rem;
   color: var(--color-text-muted);
-  line-height: 1.5;
 }
 
 /* ==========================================================================
@@ -933,54 +971,74 @@ h1, h2, h3, h4, .font-serif {
   border-bottom: 1px solid var(--color-border-light);
 }
 
-.techniques-grid {
+.philosophy-lead-box {
+  max-width: 860px;
+  margin: 0 auto 40px;
+  background: var(--bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: clamp(28px, 4vw, 38px);
+  text-align: center;
+  box-shadow: var(--shadow-soft);
+  position: relative;
+}
+
+.philosophy-lead-text {
+  font-size: clamp(1.02rem, 1.8vw, 1.15rem);
+  line-height: 1.8;
+  color: var(--color-text-body);
+}
+
+.approach-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
-.tech-card {
+.approach-card {
   background: var(--bg-card);
-  padding: 28px;
-  border-radius: var(--radius-lg);
+  padding: 32px 24px;
+  border-radius: var(--radius-xl);
   border: 1px solid var(--color-border);
   box-shadow: var(--shadow-soft);
   transition: var(--transition);
+  text-align: center;
 }
 
-.tech-card:hover {
+.approach-card:hover {
   transform: translateY(-4px);
   border-color: var(--color-peach);
   box-shadow: var(--shadow-hover);
 }
 
-.tech-icon {
-  width: 44px;
-  height: 44px;
-  border-radius: var(--radius-sm);
+.approach-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   background: var(--color-peach-light);
   color: var(--color-terracotta);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 16px;
+  margin: 0 auto 18px;
 }
 
-.tech-icon svg {
+.approach-icon svg {
   width: 24px;
   height: 24px;
 }
 
-.tech-title {
+.approach-title {
   font-family: var(--font-serif);
-  font-size: 1.2rem;
-  margin-bottom: 8px;
+  font-size: 1.22rem;
+  margin-bottom: 10px;
+  color: var(--color-text-main);
 }
 
-.tech-desc {
-  font-size: 0.9rem;
+.approach-desc {
+  font-size: 0.92rem;
   color: var(--color-text-muted);
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 /* ==========================================================================
@@ -994,7 +1052,7 @@ h1, h2, h3, h4, .font-serif {
 
 .pricing-featured-row {
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
   margin-bottom: 40px;
 }
@@ -1011,6 +1069,22 @@ h1, h2, h3, h4, .font-serif {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.card-intro-simplified {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro-simplified-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.45rem, 2.2vw, 1.95rem);
+  color: var(--color-text-main);
+  line-height: 1.35;
+  margin-top: 14px;
+  margin-bottom: 24px;
+  font-weight: 500;
 }
 
 .intro-badge {
@@ -1361,57 +1435,69 @@ h1, h2, h3, h4, .font-serif {
    Payment Section (TWINT & Cards)
    ========================================================================== */
 
-.payment-section {
-  padding: var(--section-padding) 0;
-  background: linear-gradient(180deg, var(--bg-body) 0%, var(--bg-card-alt) 100%);
-  border-top: 1px solid var(--color-border-light);
+/* WhatsApp Hero / Main Button */
+.btn-whatsapp-hero {
+  background-color: #25D366;
+  color: #FFFFFF !important;
+  font-size: clamp(1rem, 1.8vw, 1.15rem);
+  font-weight: 600;
+  padding: 16px 36px;
+  border-radius: var(--radius-full);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.28);
+  transition: var(--transition);
+  border: none;
+  text-decoration: none;
 }
 
-.payment-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+.btn-whatsapp-hero:hover {
+  background-color: #1EBE5D;
+  color: #FFFFFF !important;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(37, 211, 102, 0.38);
 }
 
-.payment-card {
-  background: var(--bg-card);
-  padding: 32px 24px;
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--color-border);
-  box-shadow: var(--shadow-soft);
-  text-align: center;
+/* ==========================================================================
+   Simplified Payment Bar (Item 14)
+   ========================================================================== */
+
+.payment-simple-bar {
+  padding: 28px 0;
+  background: var(--bg-cream-soft);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
 }
 
-.payment-icon-wrap {
-  height: 60px;
+.payment-simple-inner {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  gap: 14px;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
-.twint-badge {
-  background: #00A389;
-  color: #FFFFFF;
-  font-weight: 800;
-  font-size: 1.15rem;
-  padding: 8px 18px;
-  border-radius: var(--radius-md);
-  letter-spacing: 0.05em;
-  display: inline-flex;
+.payment-simple-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-peach-light);
+  color: var(--color-terracotta);
+  display: flex;
   align-items: center;
-  gap: 6px;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1px solid var(--color-border);
 }
 
-.payment-card h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.payment-card p {
-  font-size: 0.9rem;
-  color: var(--color-text-muted);
-  line-height: 1.6;
+.payment-simple-text {
+  font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+  font-weight: 600;
+  color: var(--color-text-main);
+  letter-spacing: -0.01em;
 }
 
 /* ==========================================================================
@@ -1750,6 +1836,8 @@ h1, h2, h3, h4, .font-serif {
   }
 
   .pillars-grid,
+  .testimonials-grid,
+  .approach-grid,
   .benefits-grid,
   .techniques-grid,
   .payment-grid {
@@ -1972,6 +2060,8 @@ h1, h2, h3, h4, .font-serif {
 
   /* Grid layouts to 1 column */
   .pillars-grid,
+  .testimonials-grid,
+  .approach-grid,
   .benefits-grid,
   .techniques-grid,
   .payment-grid {
@@ -1988,6 +2078,8 @@ h1, h2, h3, h4, .font-serif {
   .step-card,
   .benefit-card,
   .pillar-card,
+  .testimonial-card,
+  .approach-card,
   .tech-card,
   .payment-card,
   .location-card {
