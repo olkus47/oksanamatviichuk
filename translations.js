@@ -27,23 +27,22 @@ const translations = {
     "hero.cta_book": "Termin per WhatsApp",
     "hero.cta_learn": "Mehr über mich",
     "hero.quick_price": "Einzeltermin · 80 CHF",
-    "hero.intro_tag": "60 Min. Massage + 15 Min. Diagnose — 70 CHF",
+    "hero.intro_tag": "60 Min. Massage + 15 Min. persönliche Beratung und Gesichtsanalyse — 70 CHF",
     "hero.floating_title": "Oksana Matviichuk",
     "hero.floating_sub": "Achtsame Berührung & sichtbare Frische",
 
-    // Testimonials / Reviews (Replaced feature squares)
+    // Testimonials / Reviews
     "reviews.tag": "KUNDENSTIMMEN",
     "reviews.title": "Was Kundinnen sagen",
     "reviews.subtitle": "Echte Erfahrungen und Eindrücke nach der Behandlung in Degersheim.",
-    "review1.text": "„Schon nach dem ersten Termin fühlte sich mein Gesicht so viel leichter und entspannter an. Die Kombination der Techniken ist einfach wunderbar wohltuend.“",
-    "review1.author": "Sarah M.",
-    "review1.location": "Degersheim",
-    "review2.text": "„Eine Oase der Ruhe. Oksana spürt genau, wo die Verspannungen im Kiefer und an den Schläfen sitzen. Die Haut strahlt danach förmlich.“",
-    "review2.author": "Elena K.",
-    "review2.location": "St. Gallen",
-    "review3.text": "„Sehr achtsam und professionell. Kein Standardprogramm, sondern genau auf meine Bedürfnisse abgestimmt. Ich komme regelmässig wieder.“",
-    "review3.author": "Laura B.",
-    "review3.location": "Herisau",
+    "reviews.read_more": "Ganze Bewertung lesen",
+    "reviews.show_less": "Weniger anzeigen",
+    "review1.text": "“Nach der Gesichtsmassage bin ich wirklich begeistert😆 Mich haben vor allem die Falten auf der Stirn gestört, und schon nach der ersten Behandlung waren sie deutlich weniger sichtbar. Mit so einem Ergebnis hätte ich ehrlich gesagt nicht gerechnet! 🤗<br><br>Die Behandlung war unglaublich angenehm und entspannend, und ich konnte richtig abschalten. Oksana erwies sich als sehr angenehme und kompetente Frau🙌<br><br>Ich kann sie wirklich jedem empfehlen, der sich etwas Gutes tun, entspannen und seinem Gesicht etwas Frische verleihen möchte. Ich komme auf jeden Fall gerne wieder 😊”",
+    "review1.author": "Laura K.",
+    "review2.text": "“Für mich ist eine Gesichtsmassage bei einer so professionellen Masseurin wie Oksana jedes Mal ein wahrer Genuss – sowohl für die Schönheit als auch für das Wohlbefinden. Einfach immer auf höchstem Niveau!”",
+    "review2.author": "Maria S.",
+    "review3.text": "“Seit ich bei Oksana in Behandlung habe ich viel weniger Nackenverspannungen. Mein Gesicht fühlt sich weich und entspannt an. Das Hautbild ist viel frischer geworden.”",
+    "review3.author": "Claudia F.",
 
     // Für wen? (Benefits)
     "forwhom.tag": "FÜR WEN?",
@@ -59,34 +58,34 @@ const translations = {
     "benefit4.desc": "Versorgt Hautzellen optimal mit Sauerstoff und unterstützt den Lymphfluss.",
 
     // Indications & Contraindications
-    "checklist.suitable_title": "Besonders wohltuend bei:",
-    "checklist.s1": "Müder, verspannter Gesichtsmuskulatur & Zähneknirschen (Bruxismus)",
-    "checklist.s2": "Fältchen, Mimiklinien und beginnendem Elastizitätsverlust",
-    "checklist.s3": "Schlaffen Gesichtskonturen, müder Kinnlinie oder Schwellungen",
-    "checklist.s4": "Fahlem, unruhigem oder ungleichmässigem Teint",
-    "checklist.s5": "Stress, Kopfschmerzen und dem Wunsch nach einer tiefen Auszeit",
-    
-    "checklist.notsuitable_title": "Nicht geeignet bei (Kontraindikationen):",
-    "checklist.n1": "Akuten Entzündungen oder offenen Wunden im Gesicht",
-    "checklist.n2": "Akutem Herpes oder ansteckenden Hauterkrankungen",
-    "checklist.n3": "Schwerer, entzündlicher Akne",
-    "checklist.n4": "Fieber, grippalen Infekten oder akuten Erkrankungen",
-    "checklist.n5": "Frischen Unterspritzungen (Botox/Filler) oder Fäden (mind. 4 Wochen Abstand)",
+    "checklist.suitable_title": "Besonders empfohlen bei:",
+    "checklist.s1": "Muskulären Verspannungen, Zähneknirschen & Kieferdruck",
+    "checklist.s2": "Mimikfältchen, ersten Linien und Elastizitätsverlust",
+    "checklist.s3": "Müdem Teint, Schwellungen und verlangsamtem Lymphfluss",
+    "checklist.s4": "Wunsch nach definierteren Gesichtskonturen ohne Injektionen",
+    "checklist.s5": "Stress, Überlastung und dem Bedürfnis nach tiefer Ruhe",
 
-    // About Me (Item 3 verbatim new German text)
+    "checklist.notsuitable_title": "Kontraindikationen (wann abzuwarten ist):",
+    "checklist.n1": "Akute Entzündungen oder offene Hautverletzungen im Gesicht",
+    "checklist.n2": "Akute Herpes-Infektion oder ansteckende Hautkrankheiten",
+    "checklist.n3": "Schwere, entzündliche Akne-Schübe",
+    "checklist.n4": "Fieber, Infektionskrankheiten und allgemeines Unwohlsein",
+    "checklist.n5": "Kürzliche Botox- oder Filler-Behandlungen (mind. 4 Wochen warten)",
+
+    // About Me
     "about.tag": "ÜBER MICH",
-    "about.quote": "„Schönheit beginnt mit Achtsamkeit.“",
-    "about.p1": "Die Gesichtsmassage begann für mich aus einem persönlichen Interesse an natürlicher Pflege und dem Erhalt der Schönheit. Mit der Zeit wurde aus diesem Interesse ein Beruf: Ich habe eine professionelle Ausbildung absolviert und die Qualifikation als Massage-Ästhetikerin erworben, und ich bilde mich laufend in verschiedenen Techniken der Gesichtsmassage weiter.",
-    "about.p2": "Für mich ist jedes Gesicht einzigartig, deshalb arbeite ich nicht nach einem festen Standardschema. Beim ersten Termin achte ich auf den Zustand des Gewebes, muskuläre Spannungen, Schwellungen und individuelle Besonderheiten des Gesichts. Darauf aufbauend kombiniere ich verschiedene Techniken — lymphdrainierende, myofasziale, bukkale, Gua Sha und weitere — und gestalte die Massage genau nach den Bedürfnissen der jeweiligen Person.",
-    "about.p3": "Es freut mich zu sehen, wie das Gesicht nach der Massage entspannter, frischer und lebendiger wirkt. Genau wegen dieser natürlichen Veränderungen liebe ich meine Arbeit.",
-    "about.studio_desc": "Ein geschützter, heller Raum der Ruhe mit gemütlicher Atmosphäre, sanfter Musik und warmen Decken.",
+    "about.quote": "„Schönheit beginnt mit Achtsamkeit und liebevoller Zuwendung zu sich selbst.“",
+    "about.p1": "Die Gesichtsmassage begann für mich aus einem persönlichen Interesse an natürlicher Pflege und dem Erhalt der Schönheit. Mit der Zeit wurde aus diesem Interesse mein Beruf: Ich absolvierte eine professionelle Ausbildung zur Massage-Therapeutin und Kosmetikerin und bilde mich kontinuierlich in verschiedensten Gesichtsmassagetechniken weiter.",
+    "about.p2": "Für mich ist jedes Gesicht einzigartig – deshalb arbeite ich nie nach einem starren Schema. Beim ersten Termin betrachte ich den Zustand des Gewebes, muskuläre Verspannungen, Schwellungen und die individuellen Gesichtszüge. Darauf abgestimmt kombiniere ich fliessend verschiedene Techniken: Lymphdrainage, myofasziale Griffe, bukkale Elemente und Gua Sha – genau abgestimmt auf Ihre Bedürfnisse.",
+    "about.p3": "Es erfüllt mich mit Freude zu sehen, wie ein Gesicht nach der Massage gelöster, frischer und lebendiger wirkt. Genau für diese sichtbaren, natürlichen Veränderungen liebe ich meine Arbeit.",
+    "about.studio_desc": "Ein ruhiger, geschützter Raum zum Durchatmen und Loslassen – warmes Licht, dezente Düfte und sanfte Klänge.",
 
-    // Treatments / Philosophy (Item 6 Reframed: Combined techniques within one massage)
+    // Treatments / Philosophy
     "tech.tag": "BEHANDLUNGSKONZEPT",
-    "tech.title": "Ein Massageerlebnis — individuell kombiniert für Ihr Gesicht",
-    "tech.desc": "Ich biete keine isolierten Einzelbehandlungen nach starrem Katalog an. Vor und während jeder Sitzung erfasse ich den aktuellen Zustand Ihres Gewebes, Spannungen der Kaumuskulatur und den Lymphfluss. Darauf aufbauend kombiniere ich fliessend verschiedene wirksame Techniken — wie myofasziale Griffe, sanfte Lymphdrainage, bukkale Tiefenentspannung und Gua Sha — genau abgestimmt auf das, was Ihr Gesicht in diesem Moment braucht.",
-    "tech.card1_title": "Gezielte Wahrnehmung",
-    "tech.card1_desc": "Aufmerksamkeit für Gewebe, mimische Spannungszonen und Schwellungen vor jeder Behandlung.",
+    "tech.title": "Eine Behandlung — individuelle Kombination bewährter Techniken",
+    "tech.desc": "Bei mir buchen Sie keine isolierten Katalogmassagen. Zu Beginn jedes Termins erfühle ich den aktuellen Zustand Ihres Gewebes, Spannungen im Kiefer und Nacken sowie den Lymphfluss. Daraus entsteht eine fließende, harmonische Behandlung – eine fein abgestimmte Symphonie aus myofaszialer Tiefenarbeit, sanfter Lymphdrainage, bukkaler Entspannung und kühlendem Gua Sha.",
+    "tech.card1_title": "Achtsame Analyse",
+    "tech.card1_desc": "Präzises Erspüren von Gewebespannungen, Mimikdruck und Lymphstauungen vor jeder Behandlung.",
     "tech.card2_title": "Individuelle Kombination",
     "tech.card2_desc": "Fließendes Zusammenspiel aus Myofaszien-, Lymph-, Bukkale- und Gua-Sha-Elementen nach aktuellem Bedarf.",
     "tech.card3_title": "Natürliche Wirkung",
@@ -96,12 +95,12 @@ const translations = {
     "pricing.tag": "PREISE & ANGEBOTE",
     "pricing.title": "Preise & Angebote",
 
-    // Kennenlernangebot (Items 4 & 8: Keep ONLY 60 Min. + 15 Min. Diagnose — 70 CHF)
+    // Kennenlernangebot
     "intro.badge": "ERSTER TERMIN",
-    "intro.simplified_text": "60 Minuten Massage + 15 Minuten Diagnose — 70 CHF",
+    "intro.simplified_text": "60 Minuten Massage + 15 Minuten persönliche Beratung und Gesichtsanalyse — 70 CHF",
     "intro.btn": "Kennenlerntermin anfragen",
 
-    // Vollständige persönliche Gesichtsmassage (Item 9: Renamed)
+    // Vollständige persönliche Gesichtsmassage
     "standard.title": "Vollständige persönliche Gesichtsmassage",
     "standard.subtitle": "Eine Behandlung nur für Sie.",
     "standard.desc": "Wohltuende, individuell angepasste Gesichtsmassage inklusive Dekolleté, Nacken und sanfter Gesichtspflege.",
@@ -122,7 +121,7 @@ const translations = {
     "sub1.feature2": "Ideal zum Aufbau nachhaltiger Hautentspannung",
     "sub1.btn": "Monatspaket anfragen",
 
-    // Item 11: 10 Behandlungen — 590 CHF, no follow-up session mention
+    // Package 2: Individueller Massagekurs
     "sub2.badge": "NACHHALTIGE ERGEBNISSE",
     "sub2.title": "Individueller Massagekurs",
     "sub2.duration": "10 Behandlungen — 590 CHF",
@@ -131,12 +130,10 @@ const translations = {
     "sub2.benefit1": "Tiefere Wirkung auf Muskulatur, Bindegewebe und Haut",
     "sub2.benefit2": "Sichtbare Verbesserung von Konturen, Falten und Spannkraft",
     "sub2.benefit3": "Langfristige Ergebnisse und Vorbeugung",
+    "sub2.benefit4": "<strong>Als Geschenk:</strong> Auf Wunsch — Face Fitness Techniken für die Heimpraxis als Geschenk",
     "sub2.btn": "Kurs besprechen",
 
-    // Simplified Payment Info (Item 14: One simple line)
-    "payment.simple_info": "Zahlung vor Ort — bar oder mit TWINT",
-
-    // Booking Section (Item 13: tag removed; Item 16: WhatsApp direct booking)
+    // Booking Section
     "booking.title": "Gönnen Sie sich Ihre wohlverdiente Pause",
     "booking.subtitle": "Vereinbaren Sie Ihren Termin ganz einfach und unkompliziert direkt per WhatsApp. Ich freue mich auf Ihre Nachricht!",
     "booking.trust_time": "Direkte persönliche Terminabsprache",
@@ -163,11 +160,14 @@ const translations = {
     "footer.languages_title": "Sprachen im Studio",
     "footer.languages_desc": "Ich berate Sie gerne auf Deutsch, Russisch oder Ukrainisch.",
     "footer.hours_title": "Öffnungszeiten",
+    "footer.hours_desc": "Mi, Do, Fr<br>nach Terminvereinbarung",
     "footer.rights": "© 2026 Oksana Gesichtsmassage · Alle Rechte vorbehalten.",
     "footer.impressum": "Impressum",
     "footer.datenschutz": "Datenschutz",
 
-    // Legal Modals
+    // Legal Modals & Pages
+    "legal.breadcrumb_home": "Startseite",
+    "legal.back_to_home": "&larr; Zurück zur Startseite",
     "legal.imp_title": "Impressum",
     "legal.dsg_title": "Datenschutzerklärung (DSG Schweiz)",
     "legal.imp_content": `<strong>Oksana Gesichtsmassage</strong><br>
@@ -211,23 +211,22 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
     "hero.cta_book": "Записаться в WhatsApp",
     "hero.cta_learn": "Обо мне",
     "hero.quick_price": "Разовый сеанс · 80 CHF",
-    "hero.intro_tag": "60 мин. массаж + 15 мин. диагностика — 70 CHF",
+    "hero.intro_tag": "60 мин. массаж + 15 мин. индивидуальная консультация и анализ лица — 70 CHF",
     "hero.floating_title": "Оксана Матвийчук",
     "hero.floating_sub": "Бережное прикосновение и видимая свежесть",
 
-    // Testimonials / Reviews (Replaced feature squares)
+    // Testimonials / Reviews (Authentic quotes in German)
     "reviews.tag": "ОТЗЫВЫ",
     "reviews.title": "Отзывы клиенток",
-    "reviews.subtitle": "Впечатления и результаты после сеансов массажа в Дегерсхайме.",
-    "review1.text": "«Уже после первого визита лицо почувствовало невероятную легкость и расслабление. Сочетание техник подобрано потрясающе чутко.»",
-    "review1.author": "Сара М.",
-    "review1.location": "Дегерсхайм",
-    "review2.text": "«Настоящий оазис тишины и отдыха. Оксана точно чувствует зоны напряжения в челюсти и висках. Кожа после сеанса буквально сияет.»",
-    "review2.author": "Елена К.",
-    "review2.location": "Санкт-Галлен",
-    "review3.text": "«Очень бережно и профессионально. Никаких шаблонных схем — всё индивидуально под состояние лица. С радостью хожу регулярно.»",
-    "review3.author": "Лаура Б.",
-    "review3.location": "Херизау",
+    "reviews.subtitle": "Подлинные отзывы клиенток (приведены на языке оригинала):",
+    "reviews.read_more": "Читать отзыв полностью",
+    "reviews.show_less": "Свернуть",
+    "review1.text": "“Nach der Gesichtsmassage bin ich wirklich begeistert😆 Mich haben vor allem die Falten auf der Stirn gestört, und schon nach der ersten Behandlung waren sie deutlich weniger sichtbar. Mit so einem Ergebnis hätte ich ehrlich gesagt nicht gerechnet! 🤗<br><br>Die Behandlung war unglaublich angenehm und entspannend, und ich konnte richtig abschalten. Oksana erwies sich als sehr angenehme und kompetente Frau🙌<br><br>Ich kann sie wirklich jedem empfehlen, der sich etwas Gutes tun, entspannen und seinem Gesicht etwas Frische verleihen möchte. Ich komme auf jeden Fall gerne wieder 😊”",
+    "review1.author": "Laura K.",
+    "review2.text": "“Für mich ist eine Gesichtsmassage bei einer so professionellen Masseurin wie Oksana jedes Mal ein wahrer Genuss – sowohl für die Schönheit als auch für das Wohlbefinden. Einfach immer auf höchstem Niveau!”",
+    "review2.author": "Maria S.",
+    "review3.text": "“Seit ich bei Oksana in Behandlung habe ich viel weniger Nackenverspannungen. Mein Gesicht fühlt sich weich und entspannt an. Das Hautbild ist viel frischer geworden.”",
+    "review3.author": "Claudia F.",
 
     // Für wen? (Benefits)
     "forwhom.tag": "ДЛЯ КОГО?",
@@ -257,7 +256,7 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
     "checklist.n4": "Температура, ОРВИ и общее недомогание",
     "checklist.n5": "Свежие инъекции (ботокс, филлеры) или нити (менее 4 недель)",
 
-    // About Me (Item 3 verbatim Russian text)
+    // About Me
     "about.tag": "ОБО МНЕ",
     "about.quote": "«Красота начинается с чуткости и внимания к себе.»",
     "about.p1": "Массаж лица начался для меня с личного интереса к естественному уходу и сохранению красоты. Со временем этот интерес стал профессией: я прошла профессиональное обучение и получила квалификацию массажиста-эстетиста, а также продолжаю изучать и осваивать различные техники массажа лица.",
@@ -265,7 +264,7 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
     "about.p3": "Мне нравится видеть, как после массажа лицо становится более расслабленным, свежим и живым. Именно ради этих естественных изменений я и люблю свою работу.",
     "about.studio_desc": "Уютное, светлое пространство для отдыха и гармонии с теплым освещением и спокойной музыкой.",
 
-    // Treatments / Philosophy (Item 6 Reframed)
+    // Treatments / Philosophy
     "tech.tag": "КОНЦЕПЦИЯ УХОДА",
     "tech.title": "Один массаж — индивидуальное сочетание техник для вашего лица",
     "tech.desc": "Я не разделяю массаж на отдельные изолированные процедуры по каталогу. Перед каждым сеансом и во время него я оцениваю состояние тканей, напряжение жевательных и мимических мышц, а также лимфоток. Исходя из этого, я соединяю в одной процедуре различные техники — миофасциальные, лимфодренажные, буккальные элементы и Gua Sha — именно так, как это необходимо вашему лицу в данный момент.",
@@ -276,16 +275,16 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
     "tech.card3_title": "Естественный результат",
     "tech.card3_desc": "Глубокое мышечное расслабление, свежий цвет лица и подтянутые контуры без искусственного вмешательства.",
 
-    // Special Offers & Pricing (Item 7: removed "Прозрачные условия" & "Мне хочется")
+    // Special Offers & Pricing
     "pricing.tag": "ЦЕНЫ И ПРЕДЛОЖЕНИЯ",
     "pricing.title": "Цены и предложения",
 
-    // Kennenlernangebot (Items 4 & 8: Keep ONLY 60 мин. + 15 мин. диагностика — 70 CHF)
+    // Kennenlernangebot
     "intro.badge": "ПЕРВЫЙ ВИЗИТ",
-    "intro.simplified_text": "60 минут массаж + 15 минут диагностика — 70 CHF",
+    "intro.simplified_text": "60 минут массаж + 15 минут индивидуальная консультация и анализ лица — 70 CHF",
     "intro.btn": "Записаться на знакомство",
 
-    // Vollständige persönliche Gesichtsmassage (Item 9: Renamed)
+    // Vollständige persönliche Gesichtsmassage
     "standard.title": "Полноценный персональный массаж лица",
     "standard.subtitle": "Процедура, созданная только для вас.",
     "standard.desc": "Полноценный персональный массаж лица, зоны декольте и шейно-воротниковой зоны с бережным уходом.",
@@ -294,7 +293,7 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
     "standard.btn": "Записаться на сеанс",
     "standard.note": "Идеально для регулярного отдыха и поддержания тонуса.",
 
-    // Packages / Abos (Item 10: Clean proofread Russian text with no German fragments)
+    // Packages / Abos
     "offers.title": "Абонементы и курсы",
     "sub1.badge": "ПОПУЛЯРНЫЙ ВЫБОР",
     "sub1.title": "Месяц заботы о себе",
@@ -306,7 +305,7 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
     "sub1.feature2": "Идеально для стабильного снятия мышечного напряжения",
     "sub1.btn": "Выбрать курс на месяц",
 
-    // Item 11: 10 процедур — 590 CHF, no maintenance session mention
+    // Package 2: Individueller Kurs
     "sub2.badge": "ГЛУБОКИЙ РЕЗУЛЬТАТ",
     "sub2.title": "Индивидуальный курс",
     "sub2.duration": "10 процедур — 590 CHF",
@@ -315,12 +314,10 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
     "sub2.benefit1": "Глубокое воздействие на мышцы, фасции и качество кожи",
     "sub2.benefit2": "Заметное улучшение контуров, упругости и разглаживание складок",
     "sub2.benefit3": "Долгосрочный накопительный эффект и профилактика",
+    "sub2.benefit4": "<strong>В подарок:</strong> По желанию — техники Face Fitness для домашней практики в подарок",
     "sub2.btn": "Обсудить курс",
 
-    // Simplified Payment Info (Item 14: One simple line)
-    "payment.simple_info": "Оплата на месте — наличными или TWINT",
-
-    // Booking Section (Item 13: tag removed; Item 16: WhatsApp direct booking)
+    // Booking Section
     "booking.title": "Подарите себе заслуженный отдых",
     "booking.subtitle": "Договоритесь об удобном времени визита легко и быстро прямо в WhatsApp. Буду рада вашему сообщению!",
     "booking.trust_time": "Прямая личная связь для записи",
@@ -347,11 +344,14 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
     "footer.languages_title": "Языки общения",
     "footer.languages_desc": "С удовольствием проведу консультацию на немецком, украинском или русском языке.",
     "footer.hours_title": "График работы",
+    "footer.hours_desc": "Ср, Чт, Пт<br>по предварительной записи",
     "footer.rights": "© 2026 Oksana Gesichtsmassage · Все права защищены.",
     "footer.impressum": "Выходные данные (Impressum)",
     "footer.datenschutz": "Конфиденциальность (DSG)",
 
-    // Legal Modals
+    // Legal Modals & Pages
+    "legal.breadcrumb_home": "Главная",
+    "legal.back_to_home": "&larr; На главную страницу",
     "legal.imp_title": "Impressum",
     "legal.dsg_title": "Защита данных (DSG Швейцария)",
     "legal.imp_content": `<strong>Oksana Gesichtsmassage</strong><br>
@@ -361,9 +361,15 @@ Sennrütistrasse 17<br>
 <strong>Контакты:</strong><br>
 Телефон: +41 76 123 45 67<br>
 E-Mail: info@oksana-gesichtsmassage.ch<br>
-Веб-сайт: www.oksana-gesichtsmassage.ch`,
+Веб-сайт: www.oksana-gesichtsmassage.ch<br><br>
+<strong>Ответственное лицо:</strong> Оксана Матвийчук<br>
+<strong>Деятельность:</strong> Услуги в сфере расслабляющего и оздоровительного массажа лица.`,
     "legal.dsg_content": `<strong>Политика конфиденциальности согласно швейцарскому закону (DSG)</strong><br><br>
-Мы с уважением относимся к защите ваших персональных данных. Данные, оставленные при связи через WhatsApp или по почте, используются исключительно для согласования времени визита и обратной связи.`
+Защита ваших персональных данных имеет для нас первостепенное значение. Мы обрабатываем данные строго конфиденциально и в полном соответствии с законодательством Швейцарии о защите данных.<br><br>
+<strong>1. Сбор и обработка данных:</strong><br>
+При обращении через WhatsApp или по электронной почте указанные вами данные используются исключительно для обработки запроса и согласования времени визита.<br><br>
+<strong>2. Ваши права:</strong><br>
+Вы имеете право на получение информации, исправление или удаление ваших сохранённых персональных данных. Для этого свяжитесь с нами по адресу info@oksana-gesichtsmassage.ch.`
   },
 
   ua: {
@@ -389,23 +395,22 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
     "hero.cta_book": "Записатися у WhatsApp",
     "hero.cta_learn": "Про мене",
     "hero.quick_price": "Разовий сеанс · 80 CHF",
-    "hero.intro_tag": "60 хв. масаж + 15 хв. діагностика — 70 CHF",
+    "hero.intro_tag": "60 хв. масаж + 15 хв. індивідуальна консультація та аналіз обличчя — 70 CHF",
     "hero.floating_title": "Оксана Матвійчук",
     "hero.floating_sub": "Дбайливий дотик та видима свіжість",
 
-    // Testimonials / Reviews (Replaced feature squares)
+    // Testimonials / Reviews (Authentic quotes in German)
     "reviews.tag": "ВІДГУКИ",
     "reviews.title": "Відгуки клієнток",
-    "reviews.subtitle": "Враження та результати після сеансів масажу в Дегерсхаймі.",
-    "review1.text": "«Вже після першого візиту обличчя відчуло неймовірну легкість та розслаблення. Поєднання технік підібране надзвичайно тонко.»",
-    "review1.author": "Сара М.",
-    "review1.location": "Дегерсхайм",
-    "review2.text": "«Справжній оазис спокою та відновлення. Оксана безпомилково відчуває зони напруження в щелепі та скронях. Шкіра після сеансу буквально сяє.»",
-    "review2.author": "Олена К.",
-    "review2.location": "Санкт-Галлен",
-    "review3.text": "«Дуже дбайливо та професійно. Жодних шаблонних програм — усе підібрано індивідуально під стан обличчя. Із радістю приходжу регулярно.»",
-    "review3.author": "Лаура Б.",
-    "review3.location": "Герізау",
+    "reviews.subtitle": "Справжні відгуки клієнток (наведено мовою оригіналу):",
+    "reviews.read_more": "Читати відгук повністю",
+    "reviews.show_less": "Згорнути",
+    "review1.text": "“Nach der Gesichtsmassage bin ich wirklich begeistert😆 Mich haben vor allem die Falten auf der Stirn gestört, und schon nach der ersten Behandlung waren sie deutlich weniger sichtbar. Mit so einem Ergebnis hätte ich ehrlich gesagt nicht gerechnet! 🤗<br><br>Die Behandlung war unglaublich angenehm und entspannend, und ich konnte richtig abschalten. Oksana erwies sich als sehr angenehme und kompetente Frau🙌<br><br>Ich kann sie wirklich jedem empfehlen, der sich etwas Gutes tun, entspannen und seinem Gesicht etwas Frische verleihen möchte. Ich komme auf jeden Fall gerne wieder 😊”",
+    "review1.author": "Laura K.",
+    "review2.text": "“Für mich ist eine Gesichtsmassage bei einer so professionellen Masseurin wie Oksana jedes Mal ein wahrer Genuss – sowohl für die Schönheit als auch für das Wohlbefinden. Einfach immer auf höchstem Niveau!”",
+    "review2.author": "Maria S.",
+    "review3.text": "“Seit ich bei Oksana in Behandlung habe ich viel weniger Nackenverspannungen. Mein Gesicht fühlt sich weich und entspannt an. Das Hautbild ist viel frischer geworden.”",
+    "review3.author": "Claudia F.",
 
     // Für wen? (Benefits)
     "forwhom.tag": "ДЛЯ КОГО?",
@@ -435,7 +440,7 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
     "checklist.n4": "Температура, вірусні інфекції та загальне нездужання",
     "checklist.n5": "Свіжі ін'єкції (ботокс, філери) або нитки (менше 4 тижнів тому)",
 
-    // About Me (Item 3 Ukrainian translation matching the verbatim text)
+    // About Me
     "about.tag": "ПРО МЕНЕ",
     "about.quote": "«Краса починається з уважності та турботи про себе.»",
     "about.p1": "Масаж обличчя розпочався для мене з особистого інтересу до природного догляду та збереження краси. З часом цей інтерес переріс у професію: я пройшла професійне навчання та здобула кваліфікацію масажиста-естетиста, а також продовжую вивчати й опановувати різноманітні техніки масажу обличчя.",
@@ -443,7 +448,7 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
     "about.p3": "Мені подобається бачити, як після масажу обличчя стає більш розслабленим, свіжим і живим. Саме заради цих природних змін я й люблю свою роботу.",
     "about.studio_desc": "Затишний, спокійний простір для відпочинку з м'яким освітленням і атмосферою релаксу.",
 
-    // Treatments / Philosophy (Item 6 Reframed)
+    // Treatments / Philosophy
     "tech.tag": "КОНЦЕПЦІЯ ДОГЛЯДУ",
     "tech.title": "Один масаж — індивідуальне поєднання технік для вашого обличчя",
     "tech.desc": "Я не розділяю масаж на окремі шаблонні процедури за каталогом. Перед кожним сеансом та під час нього я оцінюю стан тканин, напруження жувальних і мімічних м'язів та лімфообіг. Виходячи з цього, я гармонійно поєдную в одній процедурі різні техніки — міофасціальні, лімфодренажні, букальні елементи та Gua Sha — саме так, як це необхідно вашому обличчю в цей момент.",
@@ -454,16 +459,16 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
     "tech.card3_title": "Природний живий результат",
     "tech.card3_desc": "Глибоке розслаблення м'язів, свіжий колір та підтягнуті контури обличчя без штучних втручань.",
 
-    // Special Offers & Pricing (Item 7: removed "Прозорі умови" & "Мені хочеться")
+    // Special Offers & Pricing
     "pricing.tag": "ЦІНИ ТА ПРОПОЗИЦІЇ",
     "pricing.title": "Ціни та пропозиції",
 
-    // Kennenlernangebot (Items 4 & 8: Keep ONLY 60 хв. + 15 хв. діагностика — 70 CHF)
+    // Kennenlernangebot
     "intro.badge": "ПЕРШИЙ ВІЗИТ",
-    "intro.simplified_text": "60 хвилин масаж + 15 хвилин діагностика — 70 CHF",
+    "intro.simplified_text": "60 хвилин масаж + 15 хвилин індивідуальна консультація та аналіз обличчя — 70 CHF",
     "intro.btn": "Записатися на знайомство",
 
-    // Vollständige persönliche Gesichtsmassage (Item 9: Renamed)
+    // Vollständige persönliche Gesichtsmassage
     "standard.title": "Повноцінний персональний масаж обличчя",
     "standard.subtitle": "Процедура, створена спеціально для вас.",
     "standard.desc": "Глибокий, приємний масаж обличчя, зони декольте та шиї з індивідуальним доглядом.",
@@ -472,7 +477,7 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
     "standard.btn": "Записатися на сеанс",
     "standard.note": "Ідеально для регулярного відпочинку та свіжості.",
 
-    // Packages / Abos (Item 10: Clean proofread text)
+    // Packages / Abos
     "offers.title": "Абонементи та курси",
     "sub1.badge": "ПОПУЛЯРНИЙ ВИБІР",
     "sub1.title": "Місяць турботи про себе",
@@ -484,7 +489,7 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
     "sub1.feature2": "Ідеально для стабільного зняття м'язового напруження",
     "sub1.btn": "Обрати курс на місяць",
 
-    // Item 11: 10 процедур — 590 CHF, no maintenance session mention
+    // Package 2: Individueller Kurs
     "sub2.badge": "СТІЙКИЙ РЕЗУЛЬТАТ",
     "sub2.title": "Індивідуальний курс",
     "sub2.duration": "10 процедур — 590 CHF",
@@ -493,12 +498,10 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
     "sub2.benefit1": "Глибока дія на м'язи, фасції та пружність шкіри",
     "sub2.benefit2": "Помітне покращення овалу обличчя, згладження мімічних зморшок",
     "sub2.benefit3": "Довготривалий накопичувальний ефект та профілактика",
+    "sub2.benefit4": "<strong>В подарунок:</strong> За бажанням — техніки Face Fitness для домашньої практики в подарунок",
     "sub2.btn": "Обговорити курс",
 
-    // Simplified Payment Info (Item 14: One simple line)
-    "payment.simple_info": "Оплата на місці — готівкою або TWINT",
-
-    // Booking Section (Item 13: tag removed; Item 16: WhatsApp direct booking)
+    // Booking Section
     "booking.title": "Подаруйте собі заслужений відпочинок",
     "booking.subtitle": "Домовтеся про зручний час візиту легко та швидко прямо у WhatsApp. Буду рада вашому повідомленню!",
     "booking.trust_time": "Прямий особистий зв'язок для запису",
@@ -525,11 +528,14 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
     "footer.languages_title": "Мови спілкування",
     "footer.languages_desc": "Завжди рада проконсультувати вас українською, німецькою або російською мовою.",
     "footer.hours_title": "Графік прийому",
+    "footer.hours_desc": "Ср, Чт, Пт<br>за попереднім записом",
     "footer.rights": "© 2026 Oksana Gesichtsmassage · Усі права захищено.",
     "footer.impressum": "Вихідні дані (Impressum)",
     "footer.datenschutz": "Конфіденційність (DSG)",
 
-    // Legal Modals
+    // Legal Modals & Pages
+    "legal.breadcrumb_home": "Головна",
+    "legal.back_to_home": "&larr; На головну сторінку",
     "legal.imp_title": "Impressum",
     "legal.dsg_title": "Захист персональних даних (DSG Швейцарія)",
     "legal.imp_content": `<strong>Oksana Gesichtsmassage</strong><br>
@@ -539,9 +545,15 @@ Sennrütistrasse 17<br>
 <strong>Контакти:</strong><br>
 Телефон: +41 76 123 45 67<br>
 E-Mail: info@oksana-gesichtsmassage.ch<br>
-Веб-сайт: www.oksana-gesichtsmassage.ch`,
+Веб-сайт: www.oksana-gesichtsmassage.ch<br><br>
+<strong>Відповідальна особа:</strong> Оксана Матвійчук<br>
+<strong>Діяльність:</strong> Послуги у сфері релаксуючого та оздоровчого масажу обличчя.`,
     "legal.dsg_content": `<strong>Політика конфіденційності згідно зі швейцарським законом (DSG)</strong><br><br>
-Ми поважаємо конфіденційність ваших персональних даних. Уся надана під час контакту інформація використовується виключно для організації вашого візиту та зворотного зв'язку.`
+Захист ваших персональних даних є нашим головним пріоритетом. Ми обробляємо дані суворо конфіденційно відповідно до вимог швейцарського законодавства про захист даних.<br><br>
+<strong>1. Збір та обробка даних:</strong><br>
+Під час звернення через WhatsApp або електронною поштою надана вами інформація використовується виключно для обробки запиту та організації вашого візиту.<br><br>
+<strong>2. Ваші права:</strong><br>
+Ви маєте право на отримання інформації, виправлення або видалення збережених персональних даних. Для цього звертайтеся за адресою info@oksana-gesichtsmassage.ch.`
   }
 };
 
@@ -549,21 +561,21 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
 const waMessages = {
   de: {
     general: "Hallo Oksana, ich möchte gerne einen Termin für eine Gesichtsmassage vereinbaren.",
-    intro: "Hallo Oksana, ich interessiere mich für das Kennenlernangebot (60 Min. Massage + 15 Min. Diagnose — 70 CHF).",
+    intro: "Hallo Oksana, ich interessiere mich für das Kennenlernangebot (60 Min. Massage + 15 Min. persönliche Beratung und Gesichtsanalyse — 70 CHF).",
     standard: "Hallo Oksana, ich interessiere mich für die Vollständige persönliche Gesichtsmassage (60 Min. — 80 CHF).",
     month: "Hallo Oksana, ich interessiere mich für das Monatspaket «Ein Monat Zeit für sich» (4 Behandlungen — 280 CHF).",
     course: "Hallo Oksana, ich interessiere mich für den Individuellen Massagekurs (10 Behandlungen — 590 CHF)."
   },
   ru: {
     general: "Здравствуйте, Оксана! Я хочу записаться на массаж лица.",
-    intro: "Здравствуйте, Оксана! Меня интересует первое знакомство (60 минут массаж + 15 минут диагностика — 70 CHF).",
+    intro: "Здравствуйте, Оксана! Меня интересует первое знакомство (60 минут массаж + 15 минут индивидуальная консультация и анализ лица — 70 CHF).",
     standard: "Здравствуйте, Оксана! Меня интересует полноценный персональный массаж лица (60 минут — 80 CHF).",
     month: "Здравствуйте, Оксана! Меня интересует курс «Месяц заботы о себе» (4 процедуры — 280 CHF).",
     course: "Здравствуйте, Оксана! Меня интересует индивидуальный курс (10 процедур — 590 CHF)."
   },
   ua: {
     general: "Доброго дня, Оксано! Я хочу записатися на масаж обличчя.",
-    intro: "Доброго дня, Оксано! Мене цікавить перше знайомство (60 хвилин масаж + 15 хвилин діагностика — 70 CHF).",
+    intro: "Доброго дня, Оксано! Мене цікавить перше знайомство (60 хвилин масаж + 15 хвилин індивідуальна консультація та аналіз обличчя — 70 CHF).",
     standard: "Доброго дня, Оксано! Мене цікавить повноцінний персональний масаж обличчя (60 хвилин — 80 CHF).",
     month: "Доброго дня, Оксано! Мене цікавить курс «Місяць турботи про себе» (4 процедури — 280 CHF).",
     course: "Доброго дня, Оксано! Мене цікавить індивідуальний курс (10 процедур — 590 CHF)."

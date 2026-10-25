@@ -197,4 +197,17 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelectorAll(".modal-backdrop.active").forEach((m) => closeModal(m));
     }
   });
+
+  /* --------------------------------------------------------------------------
+     5. Testimonial Read More Toggle
+     -------------------------------------------------------------------------- */
+  const testimonialToggles = document.querySelectorAll(".btn-testimonial-toggle");
+  testimonialToggles.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const card = btn.closest(".testimonial-card");
+      if (!card) return;
+      const isExpanded = card.classList.toggle("expanded");
+      btn.setAttribute("aria-expanded", isExpanded ? "true" : "false");
+    });
+  });
 });
