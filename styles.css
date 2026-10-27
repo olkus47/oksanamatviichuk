@@ -241,8 +241,10 @@ h1, h2, h3, h4, .font-serif {
 }
 
 .btn-sm {
-  padding: 8px 18px;
-  font-size: 0.85rem;
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  white-space: nowrap;
+  gap: 6px;
 }
 
 .btn-lg {
@@ -385,7 +387,23 @@ h1, h2, h3, h4, .font-serif {
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 12px;
+}
+
+.header-actions .btn {
+  white-space: nowrap;
+  padding: 6px 13px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  gap: 6px;
+  flex-shrink: 0;
+  line-height: 1.2;
+}
+
+.header-actions .btn svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
 }
 
 /* Language Switcher */
@@ -2439,6 +2457,23 @@ h1, h2, h3, h4, .font-serif {
     word-break: normal;
     padding: 12px 18px;
     font-size: 0.9rem;
+  }
+
+  .btn-sm,
+  .header-actions .btn {
+    white-space: nowrap !important;
+    padding: 5px 11px !important;
+    font-size: 0.76rem !important;
+    gap: 5px !important;
+    line-height: 1.2 !important;
+    flex-shrink: 0 !important;
+    width: auto !important;
+  }
+
+  .btn-sm svg,
+  .header-actions .btn svg {
+    width: 13px !important;
+    height: 13px !important;
   }
 
   .btn-lg {
