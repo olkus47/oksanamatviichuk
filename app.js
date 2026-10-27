@@ -3,7 +3,8 @@
  * Multilingual Engine (DE / RU / UA), Direct WhatsApp CTA & Navigation
  */
 
-const WHATSAPP_PHONE = "41761234567";
+const WHATSAPP_PHONE = "41793229584";
+const EMAIL_ADDRESS = "oksmat80@gmail.com";
 
 document.addEventListener("DOMContentLoaded", () => {
   // Current active language (default 'de', or from localStorage)
@@ -25,6 +26,20 @@ document.addEventListener("DOMContentLoaded", () => {
         ? waMessages[lang][type] 
         : (waMessages["de"][type] || "Hallo Oksana, ich möchte gerne einen Termin vereinbaren.");
       const url = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(message)}`;
+      el.setAttribute("href", url);
+    });
+  }
+
+  function updateEmailLinks(lang) {
+    const mailElements = document.querySelectorAll("[data-mail-type]");
+    const tmpl = (typeof emailTemplates !== "undefined" && emailTemplates[lang])
+      ? emailTemplates[lang]
+      : ((typeof emailTemplates !== "undefined" && emailTemplates["de"]) || {
+          subject: "Terminanfrage Gesichtsmassage — Oksana",
+          body: "Hallo Oksana,\n\nich möchte gerne einen Termin für eine Gesichtsmassage vereinbaren.\n\nFreundliche Grüsse"
+        });
+    mailElements.forEach((el) => {
+      const url = `mailto:${EMAIL_ADDRESS}?subject=${encodeURIComponent(tmpl.subject)}&body=${encodeURIComponent(tmpl.body)}`;
       el.setAttribute("href", url);
     });
   }
@@ -66,6 +81,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Update localized WhatsApp CTA links
     updateWhatsAppLinks(lang);
+
+    // Update localized Email CTA links
+    updateEmailLinks(lang);
   }
 
   // Bind clicks to language buttons

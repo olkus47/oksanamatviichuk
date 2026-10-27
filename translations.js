@@ -24,7 +24,7 @@ const translations = {
     "hero.title": "Individuelle Gesichtsmassage für Ihre natürliche Schönheit",
     "hero.subtitle": "Sanfte Techniken. Tiefe Wirkung. Für Haut, Muskulatur und nachhaltiges Wohlbefinden.",
     "hero.description": "Gönnen Sie sich eine wohltuende Auszeit in ruhiger Atmosphäre. Eine sanfte, ganzheitliche Behandlung, die Ihre Gesichtsmuskulatur entspannt und Ihre natürliche Ausstrahlung zum Strahlen bringt.",
-    "hero.cta_book": "Termin per WhatsApp",
+    "hero.cta_book": "Termin vereinbaren",
     "hero.cta_learn": "Mehr über mich",
     "hero.quick_price": "Einzeltermin · 80 CHF",
     "hero.intro_tag": "60 Min. Massage + 15 Min. persönliche Beratung und Gesichtsanalyse — 70 CHF",
@@ -83,11 +83,11 @@ const translations = {
     // Treatments / Philosophy
     "tech.tag": "BEHANDLUNGSKONZEPT",
     "tech.title": "Eine Behandlung — individuelle Kombination bewährter Techniken",
-    "tech.desc": "Bei mir buchen Sie keine isolierten Katalogmassagen. Zu Beginn jedes Termins erfühle ich den aktuellen Zustand Ihres Gewebes, Spannungen im Kiefer und Nacken sowie den Lymphfluss. Daraus entsteht eine fließende, harmonische Behandlung – eine fein abgestimmte Symphonie aus myofaszialer Tiefenarbeit, sanfter Lymphdrainage, bukkaler Entspannung und kühlendem Gua Sha.",
+    "tech.desc": "Bei mir buchen Sie keine isolierten Katalogmassagen. Zu Beginn jedes Termins erfühle ich den aktuellen Zustand Ihres Gewebes, Spannungen im Kiefer und Nacken sowie den Lymphfluss. Daraus entsteht eine fliessende, harmonische Behandlung – eine fein abgestimmte Symphonie aus myofaszialer Tiefenarbeit, sanfter Lymphdrainage, bukkaler Entspannung und kühlendem Gua Sha.",
     "tech.card1_title": "Achtsame Analyse",
     "tech.card1_desc": "Präzises Erspüren von Gewebespannungen, Mimikdruck und Lymphstauungen vor jeder Behandlung.",
     "tech.card2_title": "Individuelle Kombination",
-    "tech.card2_desc": "Fließendes Zusammenspiel aus Myofaszien-, Lymph-, Bukkale- und Gua-Sha-Elementen nach aktuellem Bedarf.",
+    "tech.card2_desc": "Fliessendes Zusammenspiel aus Myofaszien-, Lymph-, Bukkale- und Gua-Sha-Elementen nach aktuellem Bedarf.",
     "tech.card3_title": "Natürliche Wirkung",
     "tech.card3_desc": "Sichtbare Frische, tief gelöste Muskulatur und ein entspannter, lebendiger Gesichtsausdruck.",
 
@@ -135,12 +135,13 @@ const translations = {
 
     // Booking Section
     "booking.title": "Gönnen Sie sich Ihre wohlverdiente Pause",
-    "booking.subtitle": "Vereinbaren Sie Ihren Termin ganz einfach und unkompliziert direkt per WhatsApp. Ich freue mich auf Ihre Nachricht!",
+    "booking.subtitle": "Vereinbaren Sie Ihren Termin ganz einfach und unkompliziert per WhatsApp oder E-Mail. Ich freue mich auf Ihre Nachricht!",
     "booking.trust_time": "Direkte persönliche Terminabsprache",
     "booking.trust_care": "Individuell auf Ihre Haut abgestimmt",
     "booking.trust_room": "Ruhige Atmosphäre in Degersheim",
     "booking.btn_wa_main": "Termin per WhatsApp anfragen",
-    "booking.wa_phone": "+41 76 123 45 67",
+    "booking.btn_mail_main": "Termin per E-Mail anfragen",
+    "booking.wa_phone": "+41 79 322 95 84",
 
     // Location
     "location.tag": "STANDORT & ANFAHRT",
@@ -175,8 +176,8 @@ Oksana Matviichuk<br>
 Sennrütistrasse 17<br>
 9113 Degersheim, Schweiz<br><br>
 <strong>Kontakt:</strong><br>
-Telefon: +41 76 123 45 67<br>
-E-Mail: info@oksana-gesichtsmassage.ch<br>
+Telefon: +41 79 322 95 84<br>
+E-Mail: oksmat80@gmail.com<br>
 Webseite: www.oksana-gesichtsmassage.ch<br><br>
 <strong>Verantwortliche Person:</strong> Oksana Matviichuk<br>
 <strong>Zweck:</strong> Dienstleistungen im Bereich Entspannung, Gesichts- und Wohlbefindensmassage.`,
@@ -185,7 +186,7 @@ Der Schutz Ihrer persönlichen Daten ist uns ein grosses Anliegen. Wir behandeln
 <strong>1. Erhebung und Bearbeitung von Daten:</strong><br>
 Wenn Sie mit uns Kontakt aufnehmen (z.B. per WhatsApp oder E-Mail), werden die von Ihnen gemachten Angaben zur Bearbeitung der Anfrage und allfälligen Terminierung verwendet.<br><br>
 <strong>2. Ihre Rechte:</strong><br>
-Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gespeicherten personenbezogenen Daten. Wenden Sie sich hierzu jederzeit an info@oksana-gesichtsmassage.ch.`
+Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gespeicherten personenbezogenen Daten. Wenden Sie sich hierzu jederzeit an oksmat80@gmail.com.`
   },
 
   ru: {
@@ -208,7 +209,7 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
     "hero.title": "Индивидуальный массаж лица для вашей естественной красоты",
     "hero.subtitle": "Мягкие техники. Глубокое действие. Для кожи, мышц и душевного спокойствия.",
     "hero.description": "Позвольте себе восстанавливающую паузу в уютной, тихой атмосфере. Бережный уход, снимающий мышечные зажимы и раскрывающий ваше сияние.",
-    "hero.cta_book": "Записаться в WhatsApp",
+    "hero.cta_book": "Записаться на сеанс",
     "hero.cta_learn": "Обо мне",
     "hero.quick_price": "Разовый сеанс · 80 CHF",
     "hero.intro_tag": "60 мин. массаж + 15 мин. индивидуальная консультация и анализ лица — 70 CHF",
@@ -267,7 +268,7 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
     // Treatments / Philosophy
     "tech.tag": "КОНЦЕПЦИЯ УХОДА",
     "tech.title": "Один массаж — индивидуальное сочетание техник для вашего лица",
-    "tech.desc": "Я не разделяю массаж на отдельные изолированные процедуры по каталогу. Перед каждым сеансом и во время него я оцениваю состояние тканей, напряжение жевательных и мимических мышц, а также лимфоток. Исходя из этого, я соединяю в одной процедуре различные техники — миофасциальные, лимфодренажные, буккальные элементы и Gua Sha — именно так, как это необходимо вашему лицу в данный момент.",
+    "tech.desc": "Я не разделяю массаж на отдельные изолированные процедуры по протоколу. Перед каждым сеансом и во время него я оцениваю состояние тканей, напряжение жевательных и мимических мышц, а также лимфоток. Исходя из этого, я соединяю в одной процедуре различные техники — миофасциальные, лимфодренажные, буккальные элементы и Gua Sha — именно так, как это необходимо вашему лицу в данный момент.",
     "tech.card1_title": "Чуткая оценка состояния",
     "tech.card1_desc": "Внимание к тканям, мимическим спазмам и склонности к отёкам перед каждым сеансом.",
     "tech.card2_title": "Индивидуальный микс техник",
@@ -319,12 +320,13 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
 
     // Booking Section
     "booking.title": "Подарите себе заслуженный отдых",
-    "booking.subtitle": "Договоритесь об удобном времени визита легко и быстро прямо в WhatsApp. Буду рада вашему сообщению!",
+    "booking.subtitle": "Договоритесь об удобном времени визита легко и быстро в WhatsApp или по электронной почте. Буду рада вашему сообщению!",
     "booking.trust_time": "Прямая личная связь для записи",
     "booking.trust_care": "Индивидуальный подход к вашей коже",
     "booking.trust_room": "Уютная атмосфера в Дегерсхайме",
     "booking.btn_wa_main": "Записаться через WhatsApp",
-    "booking.wa_phone": "+41 76 123 45 67",
+    "booking.btn_mail_main": "Записаться по E-Mail",
+    "booking.wa_phone": "+41 79 322 95 84",
 
     // Location
     "location.tag": "АДРЕС И ПРОЕЗД",
@@ -359,8 +361,8 @@ Oksana Matviichuk<br>
 Sennrütistrasse 17<br>
 9113 Degersheim, Schweiz<br><br>
 <strong>Контакты:</strong><br>
-Телефон: +41 76 123 45 67<br>
-E-Mail: info@oksana-gesichtsmassage.ch<br>
+Телефон: +41 79 322 95 84<br>
+E-Mail: oksmat80@gmail.com<br>
 Веб-сайт: www.oksana-gesichtsmassage.ch<br><br>
 <strong>Ответственное лицо:</strong> Оксана Матвийчук<br>
 <strong>Деятельность:</strong> Услуги в сфере расслабляющего и оздоровительного массажа лица.`,
@@ -369,7 +371,7 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
 <strong>1. Сбор и обработка данных:</strong><br>
 При обращении через WhatsApp или по электронной почте указанные вами данные используются исключительно для обработки запроса и согласования времени визита.<br><br>
 <strong>2. Ваши права:</strong><br>
-Вы имеете право на получение информации, исправление или удаление ваших сохранённых персональных данных. Для этого свяжитесь с нами по адресу info@oksana-gesichtsmassage.ch.`
+Вы имеете право на получение информации, исправление или удаление ваших сохранённых персональных данных. Для этого свяжитесь с нами по адресу oksmat80@gmail.com.`
   },
 
   ua: {
@@ -392,7 +394,7 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
     "hero.title": "Індивідуальний масаж обличчя для вашої природної краси",
     "hero.subtitle": "М'які техніки. Глибока дія. Для шкіри, м'язів та внутрішньої гармонії.",
     "hero.description": "Подаруйте собі відновлюючу паузу в спокійній атмосфері. Дбайлива процедура, що знімає щоденне напруження м'язів та підкреслює вашу природну свіжість.",
-    "hero.cta_book": "Записатися у WhatsApp",
+    "hero.cta_book": "Записатися на сеанс",
     "hero.cta_learn": "Про мене",
     "hero.quick_price": "Разовий сеанс · 80 CHF",
     "hero.intro_tag": "60 хв. масаж + 15 хв. індивідуальна консультація та аналіз обличчя — 70 CHF",
@@ -451,7 +453,7 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
     // Treatments / Philosophy
     "tech.tag": "КОНЦЕПЦІЯ ДОГЛЯДУ",
     "tech.title": "Один масаж — індивідуальне поєднання технік для вашого обличчя",
-    "tech.desc": "Я не розділяю масаж на окремі шаблонні процедури за каталогом. Перед кожним сеансом та під час нього я оцінюю стан тканин, напруження жувальних і мімічних м'язів та лімфообіг. Виходячи з цього, я гармонійно поєдную в одній процедурі різні техніки — міофасціальні, лімфодренажні, букальні елементи та Gua Sha — саме так, як це необхідно вашому обличчю в цей момент.",
+    "tech.desc": "Я не розділяю масаж на окремі шаблонні процедури. Перед кожним сеансом та під час нього я оцінюю стан тканин, напруження жувальних і мімічних м'язів та лімфообіг. Виходячи з цього, я гармонійно поєдную в одній процедурі різні техніки — міофасціальні, лімфодренажні, букальні елементи та Gua Sha — саме так, як це необхідно вашому обличчю в цей момент.",
     "tech.card1_title": "Уважна оцінка стану",
     "tech.card1_desc": "Увага до тканин, зон спазму та схильності до набряків перед кожною процедурою.",
     "tech.card2_title": "Індивідуальне поєднання технік",
@@ -503,12 +505,13 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
 
     // Booking Section
     "booking.title": "Подаруйте собі заслужений відпочинок",
-    "booking.subtitle": "Домовтеся про зручний час візиту легко та швидко прямо у WhatsApp. Буду рада вашому повідомленню!",
+    "booking.subtitle": "Домовтеся про зручний час візиту легко та швидко у WhatsApp або електронною поштою. Буду рада вашому повідомленню!",
     "booking.trust_time": "Прямий особистий зв'язок для запису",
     "booking.trust_care": "Індивідуально підібраний догляд",
     "booking.trust_room": "Затишна атмосфера в Дегерсхаймі",
     "booking.btn_wa_main": "Записатися через WhatsApp",
-    "booking.wa_phone": "+41 76 123 45 67",
+    "booking.btn_mail_main": "Записатися через E-Mail",
+    "booking.wa_phone": "+41 79 322 95 84",
 
     // Location
     "location.tag": "АДРЕСА ТА ПРОЇЗД",
@@ -543,8 +546,8 @@ Oksana Matviichuk<br>
 Sennrütistrasse 17<br>
 9113 Degersheim, Schweiz<br><br>
 <strong>Контакти:</strong><br>
-Телефон: +41 76 123 45 67<br>
-E-Mail: info@oksana-gesichtsmassage.ch<br>
+Телефон: +41 79 322 95 84<br>
+E-Mail: oksmat80@gmail.com<br>
 Веб-сайт: www.oksana-gesichtsmassage.ch<br><br>
 <strong>Відповідальна особа:</strong> Оксана Матвійчук<br>
 <strong>Діяльність:</strong> Послуги у сфері релаксуючого та оздоровчого масажу обличчя.`,
@@ -553,7 +556,7 @@ E-Mail: info@oksana-gesichtsmassage.ch<br>
 <strong>1. Збір та обробка даних:</strong><br>
 Під час звернення через WhatsApp або електронною поштою надана вами інформація використовується виключно для обробки запиту та організації вашого візиту.<br><br>
 <strong>2. Ваші права:</strong><br>
-Ви маєте право на отримання інформації, виправлення або видалення збережених персональних даних. Для цього звертайтеся за адресою info@oksana-gesichtsmassage.ch.`
+Ви маєте право на отримання інформації, виправлення або видалення збережених персональних даних. Для цього звертайтеся за адресою oksmat80@gmail.com.`
   }
 };
 
@@ -579,5 +582,21 @@ const waMessages = {
     standard: "Доброго дня, Оксано! Мене цікавить повноцінний персональний масаж обличчя (60 хвилин — 80 CHF).",
     month: "Доброго дня, Оксано! Мене цікавить курс «Місяць турботи про себе» (4 процедури — 280 CHF).",
     course: "Доброго дня, Оксано! Мене цікавить індивідуальний курс (10 процедур — 590 CHF)."
+  }
+};
+
+// Email prefilled message templates per locale
+const emailTemplates = {
+  de: {
+    subject: "Terminanfrage Gesichtsmassage — Oksana",
+    body: "Hallo Oksana,\n\nich möchte gerne einen Termin für eine Gesichtsmassage vereinbaren.\n\nMeine Wunschtage / Zeiten:\nGewünschte Behandlung:\n\nMein Name:\nTelefonnummer:\n\nFreundliche Grüsse"
+  },
+  ru: {
+    subject: "Запись на массаж лица — Оксана",
+    body: "Здравствуйте, Оксана!\n\nЯ хочу записаться на массаж лица.\n\nЖелаемые дни и время:\nИнтересующая процедура:\n\nИмя:\nНомер телефона:\n\nС уважением"
+  },
+  ua: {
+    subject: "Запис на масаж обличчя — Оксана",
+    body: "Доброго дня, Оксано!\n\nЯ хочу записатися на масаж обличчя.\n\nБажані дні та час:\nБажана процедура:\n\nІм'я:\nНомер телефону:\n\nЗ повагою"
   }
 };

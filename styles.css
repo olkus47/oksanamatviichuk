@@ -1541,6 +1541,31 @@ h1, h2, h3, h4, .font-serif {
   box-shadow: 0 10px 26px rgba(37, 211, 102, 0.38);
 }
 
+/* Email Booking Main Button */
+.btn-email-hero {
+  background-color: var(--color-terracotta);
+  color: #FFFFFF !important;
+  font-size: clamp(1rem, 1.8vw, 1.15rem);
+  font-weight: 600;
+  padding: 16px 36px;
+  border-radius: var(--radius-full);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  box-shadow: 0 6px 20px rgba(183, 101, 67, 0.28);
+  transition: var(--transition);
+  border: none;
+  text-decoration: none;
+}
+
+.btn-email-hero:hover {
+  background-color: var(--color-terracotta-hover);
+  color: #FFFFFF !important;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(183, 101, 67, 0.38);
+}
+
 
 /* ==========================================================================
    Location & Map Section
