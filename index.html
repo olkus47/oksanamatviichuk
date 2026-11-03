@@ -167,7 +167,7 @@
           </p>
         </div>
 
-        <div class="testimonials-grid">
+        <div class="testimonials-grid" id="testimonialsGrid">
           
           <!-- Testimonial 1 (Laura K.) -->
           <div class="testimonial-card">
@@ -192,8 +192,26 @@
             </div>
           </div>
 
-          <!-- Testimonial 2 (Maria S.) -->
+          <!-- Testimonial 2 (Elena B.) -->
           <div class="testimonial-card">
+            <div class="testimonial-body">
+              <div class="testimonial-stars" aria-label="5 Sterne">
+                ★★★★★
+              </div>
+              <blockquote class="testimonial-quote" data-i18n="review4.text">
+                “Ich konnte wunderbar entspannen und den Moment in vollen Zügen genießen. Die wohltuende Gesichtsmassage und der angenehme, wohlriechende Duft waren einfach herrlich. Eine kleine Auszeit für Körper und Seele! Anschliessend fühlte ich mich wunderbar lebendig, erholt und frisch. Ich kann es nur weiterempfehlen!”
+              </blockquote>
+            </div>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" aria-hidden="true">E</div>
+              <div class="testimonial-meta">
+                <span class="testimonial-name" data-i18n="review4.author">Elena B.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 (Maria S.) - extra hidden initially -->
+          <div class="testimonial-card testimonial-card--extra">
             <div class="testimonial-body">
               <div class="testimonial-stars" aria-label="5 Sterne">
                 ★★★★★
@@ -210,8 +228,8 @@
             </div>
           </div>
 
-          <!-- Testimonial 3 (Claudia F.) -->
-          <div class="testimonial-card">
+          <!-- Testimonial 4 (Claudia F.) - extra hidden initially -->
+          <div class="testimonial-card testimonial-card--extra">
             <div class="testimonial-body">
               <div class="testimonial-stars" aria-label="5 Sterne">
                 ★★★★★
@@ -230,7 +248,23 @@
 
         </div>
 
+        <!-- Action to expand/collapse hidden reviews -->
+        <div class="testimonials-action">
+          <button type="button" class="btn-reviews-toggle" id="btnReviewsToggle" aria-expanded="false" aria-controls="testimonialsGrid">
+            <span class="reviews-toggle-more">
+              <span data-i18n="reviews.show_more">Weitere Bewertungen anzeigen</span>
+              <span class="badge-count">+2</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+            <span class="reviews-toggle-less">
+              <span data-i18n="reviews.show_less">Weniger anzeigen</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+            </span>
+          </button>
+        </div>
+
       </div>
+    
     </section>
 
     <!-- "Für wen?" Section & 4 Benefit Icons -->

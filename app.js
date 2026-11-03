@@ -228,4 +228,23 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.setAttribute("aria-expanded", isExpanded ? "true" : "false");
     });
   });
+
+  /* --------------------------------------------------------------------------
+     6. Testimonials Show More / Less Toggle
+     -------------------------------------------------------------------------- */
+  const btnReviewsToggle = document.getElementById("btnReviewsToggle");
+  const testimonialsGrid = document.getElementById("testimonialsGrid");
+  if (btnReviewsToggle && testimonialsGrid) {
+    btnReviewsToggle.addEventListener("click", () => {
+      const isExpanded = testimonialsGrid.classList.toggle("is-expanded");
+      btnReviewsToggle.classList.toggle("is-active", isExpanded);
+      btnReviewsToggle.setAttribute("aria-expanded", isExpanded ? "true" : "false");
+      if (!isExpanded) {
+        const reviewsSection = document.getElementById("reviews");
+        if (reviewsSection) {
+          reviewsSection.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      }
+    });
+  }
 });

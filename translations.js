@@ -37,12 +37,15 @@ const translations = {
     "reviews.subtitle": "Echte Erfahrungen und Eindrücke nach der Behandlung in Degersheim.",
     "reviews.read_more": "Ganze Bewertung lesen",
     "reviews.show_less": "Weniger anzeigen",
+    "reviews.show_more": "Weitere Bewertungen anzeigen",
     "review1.text": "“Nach der Gesichtsmassage bin ich wirklich begeistert😆 Mich haben vor allem die Falten auf der Stirn gestört, und schon nach der ersten Behandlung waren sie deutlich weniger sichtbar. Mit so einem Ergebnis hätte ich ehrlich gesagt nicht gerechnet! 🤗<br><br>Die Behandlung war unglaublich angenehm und entspannend, und ich konnte richtig abschalten. Oksana erwies sich als sehr angenehme und kompetente Frau🙌<br><br>Ich kann sie wirklich jedem empfehlen, der sich etwas Gutes tun, entspannen und seinem Gesicht etwas Frische verleihen möchte. Ich komme auf jeden Fall gerne wieder 😊”",
     "review1.author": "Laura K.",
     "review2.text": "“Für mich ist eine Gesichtsmassage bei einer so professionellen Masseurin wie Oksana jedes Mal ein wahrer Genuss – sowohl für die Schönheit als auch für das Wohlbefinden. Einfach immer auf höchstem Niveau!”",
     "review2.author": "Maria S.",
     "review3.text": "“Seit ich bei Oksana in Behandlung habe ich viel weniger Nackenverspannungen. Mein Gesicht fühlt sich weich und entspannt an. Das Hautbild ist viel frischer geworden.”",
     "review3.author": "Claudia F.",
+    "review4.text": "“Ich konnte wunderbar entspannen und den Moment in vollen Zügen genießen. Die wohltuende Gesichtsmassage und der angenehme, wohlriechende Duft waren einfach herrlich. Eine kleine Auszeit für Körper und Seele! Anschliessend fühlte ich mich wunderbar lebendig, erholt und frisch. Ich kann es nur weiterempfehlen!”",
+    "review4.author": "Elena B.",
 
     // Für wen? (Benefits)
     "forwhom.tag": "FÜR WEN?",
@@ -222,12 +225,15 @@ Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer bei uns gesp
     "reviews.subtitle": "Подлинные отзывы клиенток (приведены на языке оригинала):",
     "reviews.read_more": "Читать отзыв полностью",
     "reviews.show_less": "Свернуть",
+    "reviews.show_more": "Показать ещё отзывы",
     "review1.text": "“Nach der Gesichtsmassage bin ich wirklich begeistert😆 Mich haben vor allem die Falten auf der Stirn gestört, und schon nach der ersten Behandlung waren sie deutlich weniger sichtbar. Mit so einem Ergebnis hätte ich ehrlich gesagt nicht gerechnet! 🤗<br><br>Die Behandlung war unglaublich angenehm und entspannend, und ich konnte richtig abschalten. Oksana erwies sich als sehr angenehme und kompetente Frau🙌<br><br>Ich kann sie wirklich jedem empfehlen, der sich etwas Gutes tun, entspannen und seinem Gesicht etwas Frische verleihen möchte. Ich komme auf jeden Fall gerne wieder 😊”",
     "review1.author": "Laura K.",
     "review2.text": "“Für mich ist eine Gesichtsmassage bei einer so professionellen Masseurin wie Oksana jedes Mal ein wahrer Genuss – sowohl für die Schönheit als auch für das Wohlbefinden. Einfach immer auf höchstem Niveau!”",
     "review2.author": "Maria S.",
     "review3.text": "“Seit ich bei Oksana in Behandlung habe ich viel weniger Nackenverspannungen. Mein Gesicht fühlt sich weich und entspannt an. Das Hautbild ist viel frischer geworden.”",
     "review3.author": "Claudia F.",
+    "review4.text": "“Ich konnte wunderbar entspannen und den Moment in vollen Zügen genießen. Die wohltuende Gesichtsmassage und der angenehme, wohlriechende Duft waren einfach herrlich. Eine kleine Auszeit für Körper und Seele! Anschliessend fühlte ich mich wunderbar lebendig, erholt und frisch. Ich kann es nur weiterempfehlen!”",
+    "review4.author": "Elena B.",
 
     // Für wen? (Benefits)
     "forwhom.tag": "ДЛЯ КОГО?",
@@ -407,12 +413,15 @@ E-Mail: oksmat80@gmail.com<br>
     "reviews.subtitle": "Справжні відгуки клієнток (наведено мовою оригіналу):",
     "reviews.read_more": "Читати відгук повністю",
     "reviews.show_less": "Згорнути",
+    "reviews.show_more": "Показати ще відгуки",
     "review1.text": "“Nach der Gesichtsmassage bin ich wirklich begeistert😆 Mich haben vor allem die Falten auf der Stirn gestört, und schon nach der ersten Behandlung waren sie deutlich weniger sichtbar. Mit so einem Ergebnis hätte ich ehrlich gesagt nicht gerechnet! 🤗<br><br>Die Behandlung war unglaublich angenehm und entspannend, und ich konnte richtig abschalten. Oksana erwies sich als sehr angenehme und kompetente Frau🙌<br><br>Ich kann sie wirklich jedem empfehlen, der sich etwas Gutes tun, entspannen und seinem Gesicht etwas Frische verleihen möchte. Ich komme auf jeden Fall gerne wieder 😊”",
     "review1.author": "Laura K.",
     "review2.text": "“Für mich ist eine Gesichtsmassage bei einer so professionellen Masseurin wie Oksana jedes Mal ein wahrer Genuss – sowohl für die Schönheit als auch für das Wohlbefinden. Einfach immer auf höchstem Niveau!”",
     "review2.author": "Maria S.",
     "review3.text": "“Seit ich bei Oksana in Behandlung habe ich viel weniger Nackenverspannungen. Mein Gesicht fühlt sich weich und entspannt an. Das Hautbild ist viel frischer geworden.”",
     "review3.author": "Claudia F.",
+    "review4.text": "“Ich konnte wunderbar entspannen und den Moment in vollen Zügen genießen. Die wohltuende Gesichtsmassage und der angenehme, wohlriechende Duft waren einfach herrlich. Eine kleine Auszeit für Körper und Seele! Anschliessend fühlte ich mich wunderbar lebendig, erholt und frisch. Ich kann es nur weiterempfehlen!”",
+    "review4.author": "Elena B.",
 
     // Für wen? (Benefits)
     "forwhom.tag": "ДЛЯ КОГО?",
